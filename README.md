@@ -1,3 +1,7 @@
+# Choose your race
+
+Trying to use Mother Jones CYOA below to fuel a Statesman project.
+
 # CYOA
 
 A "Choose Your Own Adventure" plugin for interactive storytelling, from the apps team at Mother Jones, that uses Google Spreadsheets to drive a simple and fluid story telling experience.
