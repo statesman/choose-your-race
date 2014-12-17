@@ -60,70 +60,44 @@
     </nav>
 
     <div class="container header">
-      <h4>fit city</h4>
+      <h4>FIT CITY</h4>
       <h2>Wanna run?</h2>
       <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman</small></p>
       <p><a href="./">Back to the Choose Your Race Adventure</a></p>
 
-    <div class="page-header">
       <h3>Running groups</h3>
-    </div>
-    <div class="row">
-      <div class="col-sm-4">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Austin Runners Club</h3>
-          </div>
-          <div class="panel-body">
-            <a href="http://austinrunners.org" target="_blank">austinrunners.org</a>
-          </div>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Capital City Running</h3>
-          </div>
-          <div class="panel-body">
-            1700 Ranch Road 620 North, <a href="http://capitalcityrunning.com" target="_blank">capitalcityrunning.com</a>, (512) 266-1000
-          </div>
-        </div>
-      </div><!-- /.col-sm-4 -->
-      <div class="col-sm-4">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Gilbert’s Gazelles</h3>
-          </div>
-          <div class="panel-body">
-            <a href="http://gilbertsgazelles.com" target="_blank">gilbertsgazelles.com</a>
-          </div>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
-          </div>
-          <div class="panel-body">
-            Panel content
+      <div class="row">
+        <div class="col-sm-4 col-lg-8">
+          <div class="list-group">
+            <a href="http://austinrunners.org" target="_blank" class="list-group-item">
+              <h4 class="list-group-item-heading">Austin Runners Club</h4>
+            </a>
+            <a href="http://capitalcityrunning.com" target="_blank" class="list-group-item">
+              <h4 class="list-group-item-heading">Capital City Running</h4>
+              <p class="list-group-item-text">1700 Ranch Road 620 North, (512) 266-1000</p>
+            </a>
+            <a href="http://gilbertsgazelles.com" target="_blank" class="list-group-item">
+              <h4 class="list-group-item-heading">Gilbert’s Gazelles</h4>
+            </a>
+            <a href="http://lukeslocker.com" target="_blank" class="list-group-item">
+              <h4 class="list-group-item-heading">Luke’s Locker</h4>
+              <p class="list-group-item-text">115 Sandra Muraida Way, (512) 482-8676</p>
+            </a>
+            <a href="http://readytoruntexas.com" target="_blank" class="list-group-item">
+              <h4 class="list-group-item-heading">Ready to Run</h4>
+              <p class="list-group-item-text">3616 Far West Boulevard, (512) 241-0323</p>
+            </a>
+            <a href="http://" target="_blank" class="list-group-item">
+              <h4 class="list-group-item-heading">Rogue Running</h4>
+              <p class="list-group-item-text">410 Pressler Street, Austin, (512) 373-8704; 2800 East Whitestone Boulevard, Cedar Park, (512) 777-4467</p>
+            </a>
+            <a href="http://http://tinyurl.com/nnyo3uc" target="_blank" class="list-group-item">
+              <h4 class="list-group-item-heading">Texas Running Company</h4>
+              <p class="list-group-item-text">1011 W. Fifth Street, (512) 474-0022; 9901 N. Capital of Texas Highway, (512) 795-2022</p>
+            </a>
           </div>
         </div>
-      </div><!-- /.col-sm-4 -->
-      <div class="col-sm-4">
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
-          </div>
-          <div class="panel-body">
-            Panel content
-          </div>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Panel title</h3>
-          </div>
-          <div class="panel-body">
-            Panel content
-          </div>
-        </div>
-      </div><!-- /.col-sm-4 -->
-    </div>
+      </div>
     </div>
 
 
