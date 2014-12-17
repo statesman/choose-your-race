@@ -8,8 +8,8 @@
       $meta = array(
         'title' => 'Starter template',
         'description' => 'This is a starter template.',
-        'thumbnail' => 'http://lorempixel.com/630/450/sports/',
-        'url' => 'http://lorempixel.com/630/450/sports/'
+        'thumbnail' => '',
+        'url' => ''
       );
     ?>
 
@@ -42,22 +42,6 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- cyoa specific stuff -->
-    <link href="cyoa/css/style.css" rel="stylesheet" />
-    <script src="cyoa/js/jquery.js"></script>
-    <script src="cyoa/js/tabletop.js"></script>
-    <script src="cyoa/js/script.js"></script>      
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-                // this pulls from the spreadsheet that can be found at https://docs.google.com/spreadsheet/pub?key=0AswaDV9q95oZdHRQUlVQcDBJRU44NFdzc3lIeElkQXc&output=html
-                // https://docs.google.com/spreadsheets/d/1_ZffYxfzjeW5gFKUlAAYw87JXPTf6VhxFGNx8RhDh5w/pubhtml
-            var cyoa = jQuery.Cyoa('1_ZffYxfzjeW5gFKUlAAYw87JXPTf6VhxFGNx8RhDh5w',
-                 { separator : ',',
-                control_location: 'bottom'
-                } 
-            );
-        });
-    </script>
 
 
     <?php /* CMG advertising and analytics */ ?>
@@ -79,12 +63,69 @@
       <h4>fit city</h4>
       <h2>Wanna run?</h2>
       <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman</small></p>
-      <p>You've resolved to get fit and run more in 2014. Maybe that goal includes entering a race. But which one? The Central Texas running calendar is packed with possibilities. Answer these questions to pick one that’s right for you.</p>
+      <p><a href="./">Back to the Choose Your Race Adventure</a></p>
+
+    <div class="page-header">
+      <h3>Running groups</h3>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Austin Runners Club</h3>
+          </div>
+          <div class="panel-body">
+            <a href="http://austinrunners.org" target="_blank">austinrunners.org</a>
+          </div>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Capital City Running</h3>
+          </div>
+          <div class="panel-body">
+            1700 Ranch Road 620 North, <a href="http://capitalcityrunning.com" target="_blank">capitalcityrunning.com</a>, (512) 266-1000
+          </div>
+        </div>
+      </div><!-- /.col-sm-4 -->
+      <div class="col-sm-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Gilbert’s Gazelles</h3>
+          </div>
+          <div class="panel-body">
+            <a href="http://gilbertsgazelles.com" target="_blank">gilbertsgazelles.com</a>
+          </div>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel title</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+      </div><!-- /.col-sm-4 -->
+      <div class="col-sm-4">
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel title</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            <h3 class="panel-title">Panel title</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+      </div><!-- /.col-sm-4 -->
+    </div>
     </div>
 
-    <div class="cyoa_wrapper">
-        <div style="clear:both" id="cyoa_container"></div>
-    </div>
 
     <?php /* Banner ad */ ?>
     <?php include "includes/banner-ad.inc";?>
