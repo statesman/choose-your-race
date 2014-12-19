@@ -61,9 +61,8 @@
 
     <div class="container header">
       <h4>FIT CITY</h4>
-      <h2>Wanna run?</h2>
+      <h2>Central Texas running events</h2>
       <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman</small></p>
-      <p><a href="../">Back to the Choose Your Race Adventure</a></p>
 
       <div class="row">
         <div class="col-sm-8 col-lg-8">
@@ -80,18 +79,36 @@
           <?php  foreach ($list->items as $item): ?>           
             <a href="<?php print $item->url; ?>" target="_blank" class="list-group-item">
               <h4 class="list-group-item-heading"><?php print $item->title; ?></h4>
+              <h5><?php print $item->date; ?></h5>
               <p class="list-group-item-text"><?php print $item->description; ?></p>
             </a>
           <?php endforeach; ?>
           </div>
         </div>
         <div class="col-sm-4 col-lg-4">
+          <h4>Choose your Race Adventure Start</h4>
+          <div><a href="?list="><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
           <h4>Running Groups</h4>
-          <div><img class=" img-responsive" src="http://lorempixel.com/400/200/fashion/"></div>
+          <div><a href="?list=running-groups"><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
           <h4>Fun runs</h4>
-          <div><img class=" img-responsive" src="http://lorempixel.com/400/200/fashion/"></div>
+          <div><a href="?list=fun-runs"><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
+          <h4>Novelty runs</h4>
+          <div><a href="?list=novelty-runs"><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
+          <h4>Costume runs</h4>
+          <div><a href="?list=costume-runs"><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
+          <h4>Relays</h4>
+          <div><a href="?list=relays"><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
+          <h4>Half-marathons and middle distance</h4>
+          <div><a href="?list=middle-distance"><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
           <h4>Marathons</h4>
-          <div><img class=" img-responsive" src="http://lorempixel.com/400/200/fashion/"></div>
+          <div><a href="?list=marathons"><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
+          <h4>Austin Distance Challenge</h4>
+          <div><a href="?list=distance-challenge"><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
+          <h4>Shorter trail runs</h4>
+          <div><a href="?list=trail-runs"><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
+          <h4>Ultra trail runs</h4>
+          <div><a href="?list=ultra-trail-runs"><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
+
         </div>
       </div>
     </div>

@@ -77,9 +77,9 @@
 
     <div class="container header">
       <h4>fit city</h4>
-      <h2>Wanna run?</h2>
+      <h2>'Choose your own race' adventure game</h2>
       <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman</small></p>
-      <p>You've resolved to get fit and run more in 2014. Maybe that goal includes entering a race. But which one? The Central Texas running calendar is packed with possibilities. Answer these questions to pick one that’s right for you.</p>
+      <p>You've resolved to get fit and run more in 2014. Maybe that goal includes entering a race. But which one? The Central Texas running calendar is packed with possibilities. Answer these questions to pick one that’s right for you, <a href="pages/races.php?list=running-groups">to straight to the answer page</a>.</p>
 
       <div class="cyoa_wrapper">
           <div style="clear:both" id="cyoa_container"></div>
