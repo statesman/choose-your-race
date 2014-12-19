@@ -7,7 +7,7 @@
     content: "";
     width: 100%;
     /* set max-width here to contain slides. Mojo width is 632px */
-    max-width: 632px;
+    max-width: 930px;
     /*to center slideshow, if you like*/ 
     margin: 0 auto;
     /*Just in case*/
@@ -15,7 +15,7 @@
 }
 
 .cyoa_container {
-    margin: 1.25em auto;
+    margin: .25em auto; /* changed from 1.25 */
     padding: 0;
 }
 
@@ -32,12 +32,13 @@
 
 .cyoa_page p {
     position: absolute;
-    width: 96%;
+    width: 100%;
     padding: 2%;
     text-align: left;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 30px;
     font-family: verdana;
+    margin-top: 20px;
     background: rgba(255,255,255,0.5);
 }
 
@@ -128,4 +129,3 @@ ul.cyoa_controls.centered {
      }
 
 }
-
