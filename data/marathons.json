@@ -1,0 +1,10 @@
+{
+	"name":"Test list",
+	"items":
+
+[{"title":"Race Title 01","date":"Jan. 1","description":"Description like city or race type","url":"http://www.statesman.com"},
+{"title":"Race Title 01","date":"Feb. 1","description":"Description like city or race type","url":"http://www.statesman.com"},
+{"title":"Race Title 01","date":"Mar. 1","description":"Description like city or race type","url":"http://www.statesman.com"},
+{"title":"Race Title 01","date":"April. 1","description":"Description like city or race type","url":"http://www.statesman.com"}]
+
+}

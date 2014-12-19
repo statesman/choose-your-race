@@ -87,7 +87,7 @@
         </div>
         <div class="col-sm-4 col-lg-4">
           <h4>Choose your Race Adventure Start</h4>
-          <div><a href="?list="><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
+          <div><a href="../"><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
           <h4>Running Groups</h4>
           <div><a href="?list=running-groups"><img class=" img-responsive" src="http://lorempixel.com/400/100/fashion/"></a></div>
           <h4>Fun runs</h4>

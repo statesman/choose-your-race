@@ -52,9 +52,9 @@ module.exports = function(grunt) {
     // Watch for changes in LESS and JavaScript files,
     // relint/retranspile when a file changes
     watch: {
-      markup: {
-        files: ['index.php']
-      },
+    //  markup: {
+    //    files: ['index.php']
+    //  },
       scripts: {
         files: ['src/js/**.js'],
         tasks: ['jshint', 'clean:js', 'uglify']
