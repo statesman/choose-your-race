@@ -1,10 +1,15 @@
 {
-	"name":"Test list",
+	"name":"Ultra trail runs",
 	"items":
 
-[{"title":"Race Title 01","date":"Jan. 1","description":"Description like city or race type","url":"http://www.statesman.com"},
-{"title":"Race Title 01","date":"Feb. 1","description":"Description like city or race type","url":"http://www.statesman.com"},
-{"title":"Race Title 01","date":"Mar. 1","description":"Description like city or race type","url":"http://www.statesman.com"},
-{"title":"Race Title 01","date":"April. 1","description":"Description like city or race type","url":"http://www.statesman.com"}]
+[{"title":"Bandera 100K, 50K and 25K","date":"Jan. 10","description":"Bandera","url":"http://www.tejastrails.com "},
+{"title":"Buena Suerte 50K","date":"Jan. 18","description":"Big Bend Ranch State Park","url":"http://www.bigbend50.com "},
+{"title":"Rocky Raccoon 100 Miler","date":"Jan. 31","description":"Huntsville","url":"http://www.tejastrails.com "},
+{"title":"Rocky 50 Miler","date":"Feb. 7","description":"Huntsville","url":"http://www.tejastrails.com"},
+{"title":"Hells Hills 50 Miler, 50K, 25K and 10K","date":"April 4","description":"Smithville","url":"http://www.tejastrails.com "},
+{"title":"Pandora's Box of Rox marathon, half marathon and 10K","date":"May 2","description":"Burnet","url":"http://www.tejastrails.com "},
+{"title":"Paleface Trail Run 30K, 15K and 5K","date":"Oct. 3","description":"Spicewood","url":"http://www.tejastrails.com "},
+{"title":"Cactus Rose 100 Mile, 50 Mile and 4x25 Relay","date":"Oct. 24","description":"Bandera","url":"http://www.tejastrails.com "},
+{"title":"Wild Hare 50 Mile, 50K, 25K and 10K","date":"Nov. 21","description":"Warda","url":"http://www.tejastrails.com "}]
 
 }

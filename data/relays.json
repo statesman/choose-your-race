@@ -1,10 +1,11 @@
 {
-	"name":"Test list",
+	"name":"Relays",
 	"items":
 
-[{"title":"Race Title 01","date":"Jan. 1","description":"Description like city or race type","url":"http://www.statesman.com"},
-{"title":"Race Title 01","date":"Feb. 1","description":"Description like city or race type","url":"http://www.statesman.com"},
-{"title":"Race Title 01","date":"Mar. 1","description":"Description like city or race type","url":"http://www.statesman.com"},
-{"title":"Race Title 01","date":"April. 1","description":"Description like city or race type","url":"http://www.statesman.com"}]
+[{"title":"Texas Independence Relay","date":"March 28-29","description":"Gonzales to San Jacinto","url":"http://www.texasindependencerelay.com "},
+{"title":"Run to the Sun Relay","date":"April 11-12","description":"Enchanted Rock State Park to Austin","url":"http://beyondbatten.org/run-to-the-sun-relay/ "},
+{"title":"Zilker Relays","date":"Sept. 11","description":"Austin","url":"http://www.zilkerrelays.com"},
+{"title":"Car2Go Marathon ","date":"","description":"","url":"http://www.themarathonrelay.com"},
+{"title":"Ragnar Trail Hill Country","date":"Oct. 23-24","description":"Flat Rock Ranch","url":"http://www.ragnartrail.com"}]
 
 }

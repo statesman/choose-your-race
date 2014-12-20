@@ -6,10 +6,10 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <?php
       $meta = array(
-        'title' => 'Starter template',
-        'description' => 'This is a starter template.',
+        'title' => 'Choose your running event game',
+        'description' => 'Use this choose your own adventure game to find the Central Texas running event that fits your interests.',
         'thumbnail' => 'http://lorempixel.com/630/450/sports/',
-        'url' => 'http://lorempixel.com/630/450/sports/'
+        'url' => 'http://projects.statesman.com/features/choose-your-race/'
       );
     ?>
 
@@ -79,7 +79,7 @@
       <h4>fit city</h4>
       <h2>'Choose your own race' adventure game</h2>
       <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman</small></p>
-      <p>You've resolved to get fit and run more in 2014. Maybe that goal includes entering a race. But which one? The Central Texas running calendar is packed with possibilities. Answer these questions to pick one that’s right for you, <a href="pages/races.php?list=running-groups">to straight to the answer page</a>.</p>
+      <p>You've resolved to get fit and run more in 2014. Maybe that goal includes entering a race. But which one? The Central Texas running calendar is packed with possibilities. Answer these questions to pick one that’s right for you, <span style="font-weight:bold"><a href="pages/races.php?list=fun-runs">or go straight to the answer page</a></span>.</p>
 
       <div class="cyoa_wrapper">
           <div style="clear:both" id="cyoa_container"></div>

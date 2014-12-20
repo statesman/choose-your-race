@@ -6,10 +6,10 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <?php
       $meta = array(
-        'title' => 'Starter template',
-        'description' => 'This is a starter template.',
+        'title' => 'Central Texas running events',
+        'description' => 'Find the best running event for your tastes and style.',
         'thumbnail' => '',
-        'url' => ''
+        'url' => 'http://projects.statesman.com/features/choose-your-race/'
       );
     ?>
 
@@ -76,6 +76,7 @@
 
           <!-- walking through array to print list -->
           <h3><?php print $list->name; ?></h3>
+          <p>Click or tap on each race for more information.</p>
           <?php  foreach ($list->items as $item): ?>           
             <a href="<?php print $item->url; ?>" target="_blank" class="list-group-item">
               <h4 class="list-group-item-heading"><?php print $item->title; ?></h4>
