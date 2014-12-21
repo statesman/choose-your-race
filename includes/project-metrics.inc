@@ -1,6 +1,6 @@
 <script type="text/javascript">
-  var projectSite = "statesman";
-  var projectChannel = "news";
-  var projectCategory = "local";
+  var projectSite = "austin360";
+  var projectChannel = "lifestyles";
+  var projectCategory = "recreation";
   var projectSubCategory = ""; // name for specific project
 </script>
