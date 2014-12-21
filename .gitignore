@@ -26,6 +26,3 @@ node_modules/
 
 # Grunt modules
 node_modules
-
-### Bower ###
-bower_components
