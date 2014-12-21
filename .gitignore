@@ -22,4 +22,10 @@ $RECYCLE.BIN/
 *.lnk
 
 node_modules/
-*.DS_Store
+.DS_Store
+
+# Grunt modules
+node_modules
+
+### Bower ###
+bower_components
