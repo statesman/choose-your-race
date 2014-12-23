@@ -2,12 +2,12 @@
 	"name":"Constume fun runs",
 	"items":
 
-[{"title":"Austin Gorilla Run 5K","date":"Jan. 31","description":null,"url":"http://austingorillarun.com "},
-{"title":"Cupid's Undie Run","date":"Feb. 7","description":null,"url":"http://cupidsundierun.com "},
-{"title":"Cupid’s Chase 5K, Feb. 7","date":"Georgetown","description":null,"url":"http://cupid.georgetown.org/"},
-{"title":"Statesman Capitol 10,000","date":"April 12","description":null,"url":"http://www.cap10k.com "},
-{"title":"Keep Austin Weird 5K","date":"June 27","description":null,"url":"http://keepaustinweirdfest.com"},
-{"title":"CASA Superhero Run","date":"TBD September","description":null,"url":"http://www.casasuperherorun.com  "},
-{"title":"Thundercloud Subs Turkey Trot","date":"Nov. 26","description":null,"url":"http://thundercloud.com "}]
+[{"title":"Austin Gorilla Run 5K","date":"Jan. 31","description":"","url":"http://austingorillarun.com "},
+{"title":"Cupid's Undie Run","date":"Feb. 7","description":"","url":"http://cupidsundierun.com "},
+{"title":"Cupid's Chase 5K","date":"Feb. 7","description":"Georgetown","url":"http://cupid.georgetown.org/"},
+{"title":"Statesman Capitol 10,000","date":"April 12","description":"","url":"http://www.cap10k.com "},
+{"title":"Keep Austin Weird 5K","date":"June 27","description":"","url":"http://keepaustinweirdfest.com"},
+{"title":"CASA Superhero Run","date":"TBD September","description":"","url":"http://www.casasuperherorun.com  "},
+{"title":"Thundercloud Subs Turkey Trot","date":"Nov. 26","description":"","url":"http://thundercloud.com "}]
 
 }
