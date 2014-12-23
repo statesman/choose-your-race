@@ -8,7 +8,7 @@
       $meta = array(
         'title' => 'Central Texas running events',
         'description' => 'Find the best running event for your tastes and style.',
-        'thumbnail' => '',
+        'thumbnail' => 'http://projects.statesman.com/features/choose-your-race/assets/choose-your-race/choose-your-race-share.png',
         'url' => 'http://projects.statesman.com/features/choose-your-race/'
       );
     ?>
