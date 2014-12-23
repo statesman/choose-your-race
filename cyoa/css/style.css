@@ -23,7 +23,7 @@
     text-align: center;
     position: relative; /*set up for absolute positioning*/
     /* if your images aren't the same height, do this to prevent different sizes from showing*/
-    max-height: 360px;
+    max-height: 430px;
     overflow: hidden;
 }
 .cyoa_content img {
@@ -31,15 +31,15 @@
 }
 
 .cyoa_page p {
-    position: absolute;
+    /* position: absolute; /* /* this segment changed to put hedline at top */
     width: 100%;
-    padding: 2%;
     text-align: left;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 24px;
     font-family: verdana;
-    margin-top: 20px;
-    background: rgba(255,255,255,0.8);
+    padding: 1% 2% 1% 2%;
+    color: white;
+    /* background: rgba(255,255,255,0.8); */ /* was backround when position absolute */
 }
 
 .cyoa_controls {
