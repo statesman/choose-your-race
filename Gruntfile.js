@@ -4,6 +4,16 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
 
+    // Copy FontAwesome files to the fonts/ directory
+    copy: {
+      fonts: {
+        src: 'bower_components/font-awesome/fonts/**',
+        dest: 'fonts/',
+        flatten: true,
+        expand: true
+      }
+    },
+
     // Clean files from dist/ before build
     clean: {
       css: ["dist/*.css", "dist/*.css.map"],
@@ -69,11 +79,12 @@ module.exports = function(grunt) {
 
   // Load the task plugins
   grunt.loadNpmTasks('grunt-contrib-less');
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-clean');
 
-  grunt.registerTask('default', ['jshint', 'clean', 'less', 'uglify']);
+  grunt.registerTask('default', ['copy','jshint', 'clean', 'less', 'uglify']);
 
 };
