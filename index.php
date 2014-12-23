@@ -78,7 +78,7 @@
     <div class="container header">
       <h4>fit city</h4>
       <h2>'Choose your own race' adventure game</h2>
-      <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman</small></p>
+      <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman. <a href="pages/photo-credits.php">Photo credits</a></small></p>
       <p>You've resolved to get fit and run more in 2015. Maybe that goal includes entering a race. But which one? The Central Texas running calendar is packed with possibilities. Answer these questions to pick one that’s right for you, <span style="font-weight:bold"><a href="pages/races.php?list=fun-runs">or go straight to the answer page to see all of them</a></span>.</p>
 
       <div class="cyoa_wrapper">
