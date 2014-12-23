@@ -1,6 +1,14 @@
 # Choose your race
 
-Trying to use Mother Jones CYOA below to fuel a Statesman project.
+This is a modified version of the Mother Jones CYOA template for the online version of [Choose your Race Adventure](http://projects.statesman.com/features/choose-your-race/), a yearly production for Fit City.
+
+The pathways are fueled by a Google Spreadsheet saved in the Statcomdata account.
+
+The race pages are fueled by JSON files that are created manually from Google Spreadsheets in the Statcomdata account using [Mr. Data converter](http://shancarter.github.io/mr-data-converter/).
+
+Hopes are to clean this up and make it our own for future CYOA projects.
+
+Below is the original notes from Mother Jones.
 
 # CYOA
 
