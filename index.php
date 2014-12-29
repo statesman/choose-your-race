@@ -68,8 +68,8 @@
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
-        <a class="navbar-brand" href="http://www.statesman.com/" target="_blank">
-          <img width="273" height="26" src="assets/logo.png">
+        <a class="navbar-brand" href="http://www.austin360.com/" target="_blank">
+          <img width="122" height="50" src="assets/logo_austin360_color.png">
         </a>
       </div>
        <ul class="nav navbar-nav navbar-right social hidden-xs">
