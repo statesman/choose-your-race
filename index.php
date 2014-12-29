@@ -26,7 +26,7 @@
     <meta property="og:url" content="<?php print $meta['url']; ?>"/>
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@statesman" />
+    <meta name="twitter:site" content="@austin360" />
     <meta name="twitter:title" content="<?php print $meta['title']; ?>" />
     <meta name="twitter:description" content="<?php print $meta['description']; ?>" />
     <meta name="twitter:image" content="<?php print $meta['thumbnail']; ?>" />
