@@ -1,10 +1,14 @@
 {
 	"name":"Running groups",
 	"items":
+
 [{"url":"http://austinrunners.org","title":"Austin Runners Club","date":null,"description":""},
 {"url":"http://capitalcityrunning.com","title":"Capital City Running","date":null,"description":"1700 Ranch Road 620 North, (512) 266-1000"},
 {"url":"http://gilbertsgazelles.com","title":"Gilbert’s Gazelles","date":null,"description":""},
 {"url":"http://lukeslocker.com","title":"Luke’s Locker","date":null,"description":"115 Sandra Muraida Way, (512) 482-8676"},
 {"url":"http://readytoruntexas.com","title":"Ready to Run","date":null,"description":"3616 Far West Boulevard, (512) 241-0323"},
-{"url":"http://www.roguerunning.com/","title":"Rogue Running","date":null,"description":"410 Pressler Street, Austin, (512) 373-8704; 2800 East Whitestone Boulevard, Cedar Park, (512) 777-4467"}]
+{"url":"http://www.roguerunning.com/","title":"Rogue Running","date":null,"description":"410 Pressler Street, Austin, (512) 373-8704; 2800 East Whitestone Boulevard, Cedar Park, (512) 777-4467"},
+{"url":"http://www.speedydemons.com/","title":"Speedy Demons","date":null,"description":""},
+{"url":"http://www.austinfit.com/","title":"USA Fit Austin","date":null,"description":"Running and walking program"}]
+
 }
