@@ -110,6 +110,9 @@
           <h4>Costume runs</h4>
           <div><a href="races.php?list=costume-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-costume-runs.jpg"></a></div>
           <hr>
+          <h4>Super short runs</h4>
+          <div><a href="?list=short"><!-- <img class=" img-responsive" src="../assets/choose-your-race/list-costume-runs.jpg"> --> Click here</a></div>
+          <hr>
           <h4>Relays</h4>
           <div><a href="races.php?list=relays"><img class=" img-responsive" src="../assets/choose-your-race/list-relays.jpg"></a></div>
           <hr>

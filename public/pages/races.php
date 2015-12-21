@@ -6,7 +6,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <?php
       $meta = array(
-        'title' => 'Central Texas running events',
+        'title' => 'Central Texas running events, 2016',
         'description' => 'Find the best running event for your tastes and style.',
         'thumbnail' => 'http://projects.statesman.com/features/choose-your-race/assets/choose-your-race/choose-your-race-share.png',
         'url' => 'http://projects.statesman.com/features/choose-your-race/'
@@ -66,7 +66,7 @@
 
     <div class="container header">
       <h4>FIT CITY</h4>
-      <h2>Central Texas running events</h2>
+      <h2><?php print $meta['title']; ?></h2>
       <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman. <a href="photo-credits.php">Photo credits</a></small></p>
       <div class="row">
         <div class="col-sm-8 col-lg-8">
@@ -105,6 +105,9 @@
           <hr>
           <h4>Costume runs</h4>
           <div><a href="?list=costume-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-costume-runs.jpg"></a></div>
+          <hr>
+          <h4>Super short runs</h4>
+          <div><a href="?list=short"><!-- <img class=" img-responsive" src="../assets/choose-your-race/list-costume-runs.jpg"> --> Click here</a></div>
           <hr>
           <h4>Relays</h4>
           <div><a href="?list=relays"><img class=" img-responsive" src="../assets/choose-your-race/list-relays.jpg"></a></div>

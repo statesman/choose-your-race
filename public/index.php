@@ -49,9 +49,9 @@
     <script src="cyoa/js/script.js"></script>      
     <script type="text/javascript">
         jQuery(document).ready(function() {
-                // this pulls from the spreadsheet that can be found at https://docs.google.com/spreadsheet/pub?key=0AswaDV9q95oZdHRQUlVQcDBJRU44NFdzc3lIeElkQXc&output=html
-                // https://docs.google.com/spreadsheets/d/1_ZffYxfzjeW5gFKUlAAYw87JXPTf6VhxFGNx8RhDh5w/pubhtml
-            var cyoa = jQuery.Cyoa('1_ZffYxfzjeW5gFKUlAAYw87JXPTf6VhxFGNx8RhDh5w',
+                // this pulls from the spreadsheet Choose your race paths 2016 that can be found at
+                // https://docs.google.com/spreadsheets/d/1qhUeQTHUysrYGGBAArHzRg_XoPRpgKNOpkWZP4QY7Zo/pubhtml
+            var cyoa = jQuery.Cyoa('1qhUeQTHUysrYGGBAArHzRg_XoPRpgKNOpkWZP4QY7Zo',
                  { separator : ',',
                 control_location: 'bottom'
                 } 
