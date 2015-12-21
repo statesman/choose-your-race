@@ -8,7 +8,7 @@ module.exports = function(grunt) {
     copy: {
       fonts: {
         src: 'bower_components/font-awesome/fonts/**',
-        dest: 'fonts/',
+        dest: 'public/fonts/',
         flatten: true,
         expand: true
       }
@@ -32,7 +32,7 @@ module.exports = function(grunt) {
           cleancss: true
         },
         files: {
-          "dist/style.css": "src/css/style.less"
+          "public/dist/style.css": "src/css/style.less"
         }
       }
     },
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
       },
       homepage: {
         files: {
-          'dist/scripts.js': [
+          'public/dist/scripts.js': [
             //'bower_components/jquery/dist/jquery.js',
             'src/js/main.js'
           ]
@@ -62,9 +62,9 @@ module.exports = function(grunt) {
     // Watch for changes in LESS and JavaScript files,
     // relint/retranspile when a file changes
     watch: {
-    //  markup: {
-    //    files: ['index.php']
-    //  },
+      markup: {
+        files: ['public/*.php','public/includes/*.inc']
+      },
       scripts: {
         files: ['src/js/**.js'],
         tasks: ['jshint', 'clean:js', 'uglify']

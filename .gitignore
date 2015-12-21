@@ -24,8 +24,22 @@ $RECYCLE.BIN/
 node_modules/
 .DS_Store
 
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
 # Grunt modules
 node_modules
+.ftppass
+.grunt/
+.slack
 
 ### Bower ###
 bower_components
