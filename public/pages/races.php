@@ -68,55 +68,61 @@
       <h4>FIT CITY</h4>
       <h2>Central Texas running events</h2>
       <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman. <a href="photo-credits.php">Photo credits</a></small></p>
-
       <div class="row">
         <div class="col-sm-8 col-lg-8">
-          <h3>Photo credits</h3>
-          <ul>
-            <li>Do you want to race?: RICARDO B. BRAZZIELL / AMERICAN-STATESMAN</li>
-            <li>Do you want to race on roads?: JAY GODWIN / AMERICAN-STATESMAN</li>
-            <li>Casual running alone or with friends is for you: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
-            <li>Join a running group<!: RALPH BARRERA / AMERICAN-STATESMAN</li>
-            <li>Do you want to go long? (13 miles or more): CHRIS LEBLANC / FOR AMERICAN-STATESMAN</li>
-            <li>K, let's consider trails. You want to run all day?: ANDY SHARP / FOR AMERICAN-STATESMAN</li>
-            <li>Like marathon long?: CONTRIBUTED</li>
-            <li>Do you want to do a relay?: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
-            <li>Try an ultra trail run!: COURTESY CHRIS LEBLANC</li>
-            <li>Try these shorter trail runs!: CONTRIBUTED</li>
-            <li>Go for a marathon!: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
-            <li>Try these middle-distance races!: ANDY SHARP / FOR AMERICAN-STATESMAN</li>
-            <li>Run a relay!: CONTRIBUTED</li>
-            <li>Do you want to run in costume?: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
-            <li>Costumes encouraged at these runs!: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
-            <li>Do you want to get splashed in color?: CONTRIBUTED</li>
-            <li>Have fun at these novelty races!: CONTRIBUTED</li>
-            <li>Try these fun runs and fund-raising 5Ks!: CONTRIBUTED</li>
+          <div class="list-group">
 
-          </ul>          
+          <!-- fetching json from url parameter -->
+          <?php
+            $list = file_get_contents('../data/'.$_GET["list"].'.json');
+            $list = json_decode($list);
+          ?>
+
+          <!-- walking through array to print list -->
+          <h3><?php print $list->name; ?></h3>
+          <p>Click or tap on each race for more information.</p>
+          <?php  foreach ($list->items as $item): ?>           
+            <a href="<?php print $item->url; ?>" target="_blank" class="list-group-item">
+              <h4 class="list-group-item-heading"><?php print $item->title; ?></h4>
+              <h5><?php print $item->date; ?></h5>
+              <p class="list-group-item-text"><?php print $item->description; ?></p>
+            </a>
+          <?php endforeach; ?>
+          </div>
         </div>
         <div class="col-sm-4 col-lg-4">
           <h4>Choose your Race Adventure Start</h4>
           <div><a href="../"><img class=" img-responsive" src="../assets/choose-your-race/list-start.jpg"></a></div>
+          <hr>
           <h4>Running Groups</h4>
-          <div><a href="races.php?list=running-groups"><img class=" img-responsive" src="../assets/choose-your-race/list-running-groups.jpg"></a></div>
+          <div><a href="?list=running-groups"><img class=" img-responsive" src="../assets/choose-your-race/list-running-groups.jpg"></a></div>
+          <hr>
           <h4>Fun runs</h4>
-          <div><a href="races.php?list=fun-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-fun-runs.jpg"></a></div>
+          <div><a href="?list=fun-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-fun-runs.jpg"></a></div>
+          <hr>
           <h4>Novelty runs</h4>
-          <div><a href="races.php?list=novelty-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-novelty-runs.jpg"></a></div>
+          <div><a href="?list=novelty-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-novelty-runs.jpg"></a></div>
+          <hr>
           <h4>Costume runs</h4>
-          <div><a href="races.php?list=costume-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-costume-runs.jpg"></a></div>
+          <div><a href="?list=costume-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-costume-runs.jpg"></a></div>
+          <hr>
           <h4>Relays</h4>
-          <div><a href="races.php?list=relays"><img class=" img-responsive" src="../assets/choose-your-race/list-relays.jpg"></a></div>
+          <div><a href="?list=relays"><img class=" img-responsive" src="../assets/choose-your-race/list-relays.jpg"></a></div>
+          <hr>
           <h4>Half-marathons and middle distance</h4>
-          <div><a href="races.php?list=middle-distance"><img class=" img-responsive" src="../assets/choose-your-race/list-middle-distance.jpg"></a></div>
+          <div><a href="?list=middle-distance"><img class=" img-responsive" src="../assets/choose-your-race/list-middle-distance.jpg"></a></div>
+          <hr>
           <h4>Marathons</h4>
-          <div><a href="races.php?list=marathons"><img class=" img-responsive" src="../assets/choose-your-race/list-marathons.jpg"></a></div>
+          <div><a href="?list=marathons"><img class=" img-responsive" src="../assets/choose-your-race/list-marathons.jpg"></a></div>
+          <hr>
           <h4>Austin Distance Challenge</h4>
-          <div><a href="races.php?list=distance-challenge"><img class=" img-responsive" src="../assets/choose-your-race/list-distance-challenge.jpg"></a></div>
+          <div><a href="?list=distance-challenge"><img class=" img-responsive" src="../assets/choose-your-race/list-distance-challenge.jpg"></a></div>
+          <hr>
           <h4>Shorter trail runs</h4>
-          <div><a href="races.php?list=trail-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-trail-runs.jpg"></a></div>
+          <div><a href="?list=trail-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-trail-runs.jpg"></a></div>
+          <hr>
           <h4>Ultra trail runs</h4>
-          <div><a href="races.php?list=ultra-trail-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-ultras.jpg"></a></div>
+          <div><a href="?list=ultra-trail-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-ultras.jpg"></a></div>
         </div>
       </div>
     </div>
