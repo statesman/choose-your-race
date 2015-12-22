@@ -2,13 +2,30 @@
 
 This is a modified version of the Mother Jones CYOA template for the online version of [Choose your Race Adventure](http://projects.statesman.com/features/choose-your-race/), a yearly production for Fit City.
 
-The pathways are fueled by a Google Spreadsheet saved in the Statcomdata account.
+The pathways are fueled by a Google Spreadsheet called "Choose your race paths 2016" saved in the interactives@statesman.com Drive account.
 
-The race pages are fueled by JSON files that are created manually from Google Spreadsheets in the Statcomdata account using [Mr. Data converter](http://shancarter.github.io/mr-data-converter/).
+The race pages are fueled by JSON files that are created manually from Google Spreadsheets (Choose your race data 2016) in the Statcomdata account using [Mr. Data converter](http://shancarter.github.io/mr-data-converter/). These are saved in `public/data`
 
 Hopes are to clean this up and make it our own for future CYOA projects.
 
-Below is the original notes from Mother Jones.
+## Photo sizes
+
+* Game photos are 930 x 400
+* List photos are 733 x 191
+
+## Updating for 2016
+
+I created a new branch for the updates, then merged to master when done. We only need to keep current versions/dates. I adjusted the project structure to use a `public` folder, `grunt-ftpush` and `grunt-slack-hook`. Among the other changes we are likely to make if used in future years:
+
+* I updated the title and intro with the correct year. File is `/public/index.php`
+* Created a new cover photo from most recent Cap10k race and put in the paths spreadsheet.
+* Adjusted the pathways in the paths spreadsheet to include short races that had dropped in 2015, including photos to support.
+* I updated the `pages/photo-credits.php` with new credits.
+* I updated `_race-nav.php` with new races. That is an include used in both `photo-credits-php` and `races.php`.
+
+-----------
+
+Below are the original notes from Mother Jones.
 
 # CYOA
 
