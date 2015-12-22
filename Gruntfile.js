@@ -98,7 +98,7 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/stage_aas/projects/features/choose-your-race/',
+        dest: '/prod_aas/projects/features/choose-your-race/',
         exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
         simple: false,
         useList: false
