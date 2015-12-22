@@ -1,0 +1,13 @@
+{
+	"name":"Constume fun runs",
+	"items":
+
+[{"title":"Austin Gorilla Run 5K","date":"Jan. 30","description":"Austin","url":"http://austingorillarun.com "},
+{"title":"Cupid's Undie Run","date":"Feb. 20","description":"Austin","url":"http://cupidsundierun.com "},
+{"title":"Cupid's Chase 5K","date":"Feb. 6","description":"Georgetown","url":"http://cupid.georgetown.org/"},
+{"title":"Statesman Capitol 10,000","date":"April 10","description":"Austin","url":"http://www.cap10k.com "},
+{"title":"Keep Austin Weird 5K","date":"June 25","description":"Austin","url":"http://keepaustinweirdfest.com"},
+{"title":"CASA Superhero Run","date":"TBD September","description":"Austin","url":"http://www.casasuperherorun.com  "},
+{"title":"Thundercloud Subs Turkey Trot","date":"Nov. 24","description":"Austin","url":"http://thundercloud.com "}]
+
+}

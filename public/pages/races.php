@@ -6,7 +6,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <?php
       $meta = array(
-        'title' => 'Central Texas running events',
+        'title' => 'Central Texas running events, 2016',
         'description' => 'Find the best running event for your tastes and style.',
         'thumbnail' => 'http://projects.statesman.com/features/choose-your-race/assets/choose-your-race/choose-your-race-share.png',
         'url' => 'http://projects.statesman.com/features/choose-your-race/'
@@ -66,7 +66,7 @@
 
     <div class="container header">
       <h4>FIT CITY</h4>
-      <h2>Central Texas running events</h2>
+      <h2><?php print $meta['title']; ?></h2>
       <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman. <a href="photo-credits.php">Photo credits</a></small></p>
       <div class="row">
         <div class="col-sm-8 col-lg-8">
@@ -91,28 +91,7 @@
           </div>
         </div>
         <div class="col-sm-4 col-lg-4">
-          <h4>Choose your Race Adventure Start</h4>
-          <div><a href="../"><img class=" img-responsive" src="../assets/choose-your-race/list-start.jpg"></a></div>
-          <h4>Running Groups</h4>
-          <div><a href="?list=running-groups"><img class=" img-responsive" src="../assets/choose-your-race/list-running-groups.jpg"></a></div>
-          <h4>Fun runs</h4>
-          <div><a href="?list=fun-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-fun-runs.jpg"></a></div>
-          <h4>Novelty runs</h4>
-          <div><a href="?list=novelty-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-novelty-runs.jpg"></a></div>
-          <h4>Costume runs</h4>
-          <div><a href="?list=costume-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-costume-runs.jpg"></a></div>
-          <h4>Relays</h4>
-          <div><a href="?list=relays"><img class=" img-responsive" src="../assets/choose-your-race/list-relays.jpg"></a></div>
-          <h4>Half-marathons and middle distance</h4>
-          <div><a href="?list=middle-distance"><img class=" img-responsive" src="../assets/choose-your-race/list-middle-distance.jpg"></a></div>
-          <h4>Marathons</h4>
-          <div><a href="?list=marathons"><img class=" img-responsive" src="../assets/choose-your-race/list-marathons.jpg"></a></div>
-          <h4>Austin Distance Challenge</h4>
-          <div><a href="?list=distance-challenge"><img class=" img-responsive" src="../assets/choose-your-race/list-distance-challenge.jpg"></a></div>
-          <h4>Shorter trail runs</h4>
-          <div><a href="?list=trail-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-trail-runs.jpg"></a></div>
-          <h4>Ultra trail runs</h4>
-          <div><a href="?list=ultra-trail-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-ultras.jpg"></a></div>
+          <?php include "_race-nav.php"; ?>
         </div>
       </div>
     </div>

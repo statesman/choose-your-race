@@ -6,9 +6,9 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <?php
       $meta = array(
-        'title' => 'Choose your running event game',
-        'description' => 'Use this choose your own adventure game to find the Central Texas running event that fits your interests.',
-        'thumbnail' => 'http://projects.statesman.com/features/choose-your-race/assets/choose-your-race/choose-your-race-share-360.png',
+        'title' => 'Central Texas running events',
+        'description' => 'Find the best running event for your tastes and style.',
+        'thumbnail' => 'http://projects.statesman.com/features/choose-your-race/assets/choose-your-race/choose-your-race-share.png',
         'url' => 'http://projects.statesman.com/features/choose-your-race/'
       );
     ?>
@@ -26,13 +26,13 @@
     <meta property="og:url" content="<?php print $meta['url']; ?>"/>
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@austin360" />
+    <meta name="twitter:site" content="@statesman" />
     <meta name="twitter:title" content="<?php print $meta['title']; ?>" />
     <meta name="twitter:description" content="<?php print $meta['description']; ?>" />
     <meta name="twitter:image" content="<?php print $meta['thumbnail']; ?>" />
     <meta name="twitter:url" content="<?php print $meta['url']; ?>" />
 
-    <link href="dist/style.css" rel="stylesheet">
+    <link href="../dist/style.css" rel="stylesheet">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -42,34 +42,18 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-    <!-- cyoa specific stuff -->
-    <link href="cyoa/css/style.css" rel="stylesheet" />
-    <script src="cyoa/js/jquery.js"></script>
-    <script src="cyoa/js/tabletop.js"></script>
-    <script src="cyoa/js/script.js"></script>      
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-                // this pulls from the spreadsheet that can be found at https://docs.google.com/spreadsheet/pub?key=0AswaDV9q95oZdHRQUlVQcDBJRU44NFdzc3lIeElkQXc&output=html
-                // https://docs.google.com/spreadsheets/d/1_ZffYxfzjeW5gFKUlAAYw87JXPTf6VhxFGNx8RhDh5w/pubhtml
-            var cyoa = jQuery.Cyoa('1_ZffYxfzjeW5gFKUlAAYw87JXPTf6VhxFGNx8RhDh5w',
-                 { separator : ',',
-                control_location: 'bottom'
-                } 
-            );
-        });
-    </script>
 
 
     <?php /* CMG advertising and analytics */ ?>
-    <?php include "includes/advertising.inc";?>
-    <?php include "includes/metrics-head.inc";?>
+    <?php include "../includes/advertising.inc";?>
+    <?php include "../includes/metrics-head.inc";?>
   </head>
   <body>
   <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <div class="navbar-header">
         <a class="navbar-brand" href="http://www.austin360.com/" target="_blank">
-          <img width="122" height="50" src="assets/logo_austin360_color.png">
+          <img width="122" height="50" src="../assets/logo_austin360_color.png">
         </a>
       </div>
        <ul class="nav navbar-nav navbar-right social hidden-xs">
@@ -81,26 +65,53 @@
   </nav>
 
     <div class="container header">
-      <h4>fit city</h4>
-      <h2>'Choose your own race' adventure game</h2>
-      <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman. <a href="pages/photo-credits.php">Photo credits</a></small></p>
-      <p>You've resolved to get fit and run more in 2015. Maybe that goal includes entering a race. But which one? The Central Texas running calendar is packed with possibilities. Answer these questions to pick one that’s right for you, <span style="font-weight:bold"><a href="pages/races.php?list=fun-runs">or go straight to the answer page to see all of them</a></span>.</p>
+      <h4>FIT CITY</h4>
+      <h2>Central Texas running events</h2>
+      <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman. <a href="photo-credits.php">Photo credits</a></small></p>
 
-      <div class="cyoa_wrapper">
-          <div style="clear:both" id="cyoa_container"></div>
+      <div class="row">
+        <div class="col-sm-8 col-lg-8">
+          <h3>Photo credits</h3>
+          <ul>
+            <li>Do you want to race?: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
+            <li>Do you want to race on roads?: JAY GODWIN / AMERICAN-STATESMAN</li>
+            <li>Casual running alone or with friends is for you: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
+            <li>Join a running group<!: RALPH BARRERA / AMERICAN-STATESMAN</li>
+            <li>Do you want to go long? (13 miles or more): CHRIS LEBLANC / FOR AMERICAN-STATESMAN</li>
+            <li>K, let's consider trails. You want to run all day?: ANDY SHARP / FOR AMERICAN-STATESMAN</li>
+            <li>Like marathon long?: CONTRIBUTED</li>
+            <li>Do you want to do a relay?: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
+            <li>Try an ultra trail run!: COURTESY CHRIS LEBLANC</li>
+            <li>Try these shorter trail runs!: CONTRIBUTED</li>
+            <li>Go for a marathon!: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
+            <li>Try these middle-distance races!: ANDY SHARP / FOR AMERICAN-STATESMAN</li>
+            <li>Run a relay!: CONTRIBUTED</li>
+            <li>Short runs: LARRY KOLVOORD / AMERICAN-STATESMAN</li>
+            <li>Do you want to run in costume?: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
+            <li>Costumes encouraged at these runs!: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
+            <li>Do you want to get splashed in color?: CONTRIBUTED</li>
+            <li>Have fun at these novelty races!: CONTRIBUTED</li>
+            <li>Try these fun runs and fund-raising 5Ks!: CONTRIBUTED</li>
+
+          </ul>          
+        </div>
+        <div class="col-sm-4 col-lg-4">
+          <?php include "_race-nav.php"; ?>
+        </div>
       </div>
     </div>
 
+
     <?php /* Banner ad */ ?>
-    <?php include "includes/banner-ad.inc";?>
+    <?php include "../includes/banner-ad.inc";?>
 
     <p id="legal" class="center-block text-center"><small>© 2014 <a href="http://www.coxmediagroup.com" target="_blank">Cox Media Group</a>. By using this website, you accept the terms of our <a href="http://www.mystatesman.com/visitor_agreement/" target="_blank">Visitor Agreement</a> and <a target="_blank" href="http://www.mystatesman.com/privacy_policy/">Privacy Policy</a>, and understand your options regarding <a target="_blank" href="http://www.mystatesman.com/privacy_policy/#ad-choices">Ad Choices</a><img src="http://media.cmgdigital.com/shared/img/photos/2012/02/29/d3/da/ad_choices_logo.png" alt="AdChoices">.</small></p>
 
     <?php /* CMG advertising and analytics */ ?>
-    <?php include "includes/project-metrics.inc"; ?>
-    <?php include "includes/metrics.inc"; ?>
+    <?php include "../includes/project-metrics.inc"; ?>
+    <?php include "../includes/metrics.inc"; ?>
 
-    <script src="dist/scripts.js"></script>
+    <script src="../dist/scripts.js"></script>
   </body>
 </html>
 
