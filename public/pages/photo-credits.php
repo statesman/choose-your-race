@@ -73,7 +73,7 @@
         <div class="col-sm-8 col-lg-8">
           <h3>Photo credits</h3>
           <ul>
-            <li>Do you want to race?: RICARDO B. BRAZZIELL / AMERICAN-STATESMAN</li>
+            <li>Do you want to race?: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
             <li>Do you want to race on roads?: JAY GODWIN / AMERICAN-STATESMAN</li>
             <li>Casual running alone or with friends is for you: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
             <li>Join a running group<!: RALPH BARRERA / AMERICAN-STATESMAN</li>
@@ -86,6 +86,7 @@
             <li>Go for a marathon!: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
             <li>Try these middle-distance races!: ANDY SHARP / FOR AMERICAN-STATESMAN</li>
             <li>Run a relay!: CONTRIBUTED</li>
+            <li>Short runs: LARRY KOLVOORD / AMERICAN-STATESMAN</li>
             <li>Do you want to run in costume?: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
             <li>Costumes encouraged at these runs!: RODOLFO GONZALEZ / AMERICAN-STATESMAN</li>
             <li>Do you want to get splashed in color?: CONTRIBUTED</li>
@@ -110,8 +111,8 @@
           <h4>Costume runs</h4>
           <div><a href="races.php?list=costume-runs"><img class=" img-responsive" src="../assets/choose-your-race/list-costume-runs.jpg"></a></div>
           <hr>
-          <h4>Super short runs</h4>
-          <div><a href="?list=short"><!-- <img class=" img-responsive" src="../assets/choose-your-race/list-costume-runs.jpg"> --> Click here</a></div>
+          <h4>Short runs</h4>
+          <div><a href="?list=short"><img class=" img-responsive" src="../assets/choose-your-race/list-short-runs.jpg"></a></div>
           <hr>
           <h4>Relays</h4>
           <div><a href="races.php?list=relays"><img class=" img-responsive" src="../assets/choose-your-race/list-relays.jpg"></a></div>
