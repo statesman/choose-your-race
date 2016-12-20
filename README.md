@@ -10,7 +10,7 @@ Hopes are to clean this up and make it our own for future CYOA projects.
 
 ## Photo sizes
 
-* Game photos are 930 x 400
+* Bigger game photos are 930 x 400
 * List photos are 733 x 191
 
 ## Updating for 2016
