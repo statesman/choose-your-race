@@ -6,7 +6,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <?php
       $meta = array(
-        'title' => 'Central Texas running events, 2016',
+        'title' => 'Central Texas running events, 2017',
         'description' => 'Find the best running event for your tastes and style.',
         'thumbnail' => 'http://projects.statesman.com/features/choose-your-race/assets/choose-your-race/choose-your-race-share.png',
         'url' => 'http://projects.statesman.com/features/choose-your-race/'
@@ -99,10 +99,7 @@
 
     <?php /* Banner ad */ ?>
     <?php include "../includes/banner-ad.inc";?>
-
-    <p id="legal" class="center-block text-center"><small>© 2014 <a href="http://www.coxmediagroup.com" target="_blank">Cox Media Group</a>. By using this website, you accept the terms of our <a href="http://www.mystatesman.com/visitor_agreement/" target="_blank">Visitor Agreement</a> and <a target="_blank" href="http://www.mystatesman.com/privacy_policy/">Privacy Policy</a>, and understand your options regarding <a target="_blank" href="http://www.mystatesman.com/privacy_policy/#ad-choices">Ad Choices</a><img src="http://media.cmgdigital.com/shared/img/photos/2012/02/29/d3/da/ad_choices_logo.png" alt="AdChoices">.</small></p>
-
-    <?php /* CMG advertising and analytics */ ?>
+    <?php include "../includes/legal.inc";?>
     <?php include "../includes/project-metrics.inc"; ?>
     <?php include "../includes/metrics.inc"; ?>
 

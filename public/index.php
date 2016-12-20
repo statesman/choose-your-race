@@ -50,8 +50,8 @@
     <script type="text/javascript">
         jQuery(document).ready(function() {
                 // this pulls from the spreadsheet Choose your race paths 2016 that can be found at
-                // https://docs.google.com/spreadsheets/d/1qhUeQTHUysrYGGBAArHzRg_XoPRpgKNOpkWZP4QY7Zo/pubhtml
-            var cyoa = jQuery.Cyoa('1qhUeQTHUysrYGGBAArHzRg_XoPRpgKNOpkWZP4QY7Zo',
+                // https://docs.google.com/spreadsheets/d/1vir54v6_rYs-ly-mlEpX4ia6dm55mWovnf_yDU1KaNA/pubhtml
+            var cyoa = jQuery.Cyoa('1vir54v6_rYs-ly-mlEpX4ia6dm55mWovnf_yDU1KaNA',
                  { separator : ',',
                 control_location: 'bottom'
                 } 
@@ -84,7 +84,7 @@
       <h4>fit city</h4>
       <h2>'Choose your own race' adventure game</h2>
       <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman. <a href="pages/photo-credits.php">Photo credits</a></small></p>
-      <p>You've resolved to get fit and run more in 2016. Maybe that goal includes entering a race. But which one? The Central Texas running calendar is packed with possibilities. Answer these questions to pick one that’s right for you, <span style="font-weight:bold"><a href="pages/races.php?list=fun-runs">or go straight to the answer page to see all of them</a></span>.</p>
+      <p>You've resolved to get fit and run more in 2017. Maybe that goal includes entering a race. But which one? The Central Texas running calendar is packed with possibilities. Answer these questions to pick one that’s right for you, <span style="font-weight:bold"><a href="pages/races.php?list=fun-runs">or go straight to the answer page to see all of them</a></span>.</p>
 
       <div class="cyoa_wrapper">
           <div style="clear:both" id="cyoa_container"></div>
@@ -93,10 +93,7 @@
 
     <?php /* Banner ad */ ?>
     <?php include "includes/banner-ad.inc";?>
-
-    <p id="legal" class="center-block text-center"><small>© 2014 <a href="http://www.coxmediagroup.com" target="_blank">Cox Media Group</a>. By using this website, you accept the terms of our <a href="http://www.mystatesman.com/visitor_agreement/" target="_blank">Visitor Agreement</a> and <a target="_blank" href="http://www.mystatesman.com/privacy_policy/">Privacy Policy</a>, and understand your options regarding <a target="_blank" href="http://www.mystatesman.com/privacy_policy/#ad-choices">Ad Choices</a><img src="http://media.cmgdigital.com/shared/img/photos/2012/02/29/d3/da/ad_choices_logo.png" alt="AdChoices">.</small></p>
-
-    <?php /* CMG advertising and analytics */ ?>
+    <?php include "includes/legal.inc";?>
     <?php include "includes/project-metrics.inc"; ?>
     <?php include "includes/metrics.inc"; ?>
 
