@@ -70,6 +70,10 @@ module.exports = function(grunt) {
       homepage: {
         files: {
           'public/dist/scripts.js': [
+            'node_modules/bootstrap/js/button.js',
+            'node_modules/bootstrap/js/collapse.js',
+            'node_modules/bootstrap/js/dropdown.js',
+            'node_modules/bootstrap/js/transition.js',
             'src/js/main.js'
           ]
         }
