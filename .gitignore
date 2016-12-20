@@ -41,5 +41,6 @@ node_modules
 .grunt/
 .slack
 
-### Bower ###
-bower_components
+# Build components that don't need to be saved
+public/dist
+public/fonts/
