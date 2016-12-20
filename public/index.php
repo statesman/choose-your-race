@@ -50,8 +50,8 @@
     <script type="text/javascript">
         jQuery(document).ready(function() {
                 // this pulls from the spreadsheet Choose your race paths 2016 that can be found at
-                // https://docs.google.com/spreadsheets/d/1qhUeQTHUysrYGGBAArHzRg_XoPRpgKNOpkWZP4QY7Zo/pubhtml
-            var cyoa = jQuery.Cyoa('1qhUeQTHUysrYGGBAArHzRg_XoPRpgKNOpkWZP4QY7Zo',
+                // https://docs.google.com/spreadsheets/d/1vir54v6_rYs-ly-mlEpX4ia6dm55mWovnf_yDU1KaNA/pubhtml
+            var cyoa = jQuery.Cyoa('1vir54v6_rYs-ly-mlEpX4ia6dm55mWovnf_yDU1KaNA',
                  { separator : ',',
                 control_location: 'bottom'
                 } 
