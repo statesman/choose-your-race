@@ -2,13 +2,36 @@
 	"name":"Trail runs",
 	"items":
 
-[{"title":"Lost Pines 10K","date":"March 20","description":"Bastrop","url":"http://lostpinestrailruns.com"},
-{"title":"The Maze at Walnut Creek","date":"March 27","description":"Rogue Trail Series, Austin","url":"http://roguetrailseries.com "},
-{"title":"The Tangle at Flat Creek Ranch","date":"April 24","description":"Rogue Trail Series, Johnson City","url":"http://roguetrailseries.com "},
-{"title":"The Ranch at Reveille Peak Ranch","date":"May 22","description":"Rogue Trail Series, Burnet","url":"http://roguetrailseries.com "},
-{"title":"Bruises & Bandages","date":"Jan. 16","description":"Women on the Trail Race series, Georgetown","url":"http://trailheadrunning.com"},
-{"title":"Creepy Crawlies & Critters","date":"Feb. 20","description":"Women on the Trail Race series, Buda","url":"http://trailheadrunning.com"},
-{"title":"Dirt Trails and Pony Tails","date":"Nov. 5","description":"Women on the Trail Race series, Austin","url":"http://trailheadrunning.com"},
-{"title":"Race to Build","date":"March 6","description":"Leander","url":"http://tinyurl.com/hgd3e5y"}]
-
+[
+    {
+        "title": "The Maze at Walnut Creek",
+        "date": "March 26",
+        "description": "Rogue Trail Series, Austin",
+        "url": "http://roguetrailseries.com "
+    },
+    {
+        "title": "The Tangle at Flat Creek Ranch",
+        "date": "April 30",
+        "description": "Rogue Trail Series, Johnson City",
+        "url": "http://roguetrailseries.com "
+    },
+    {
+        "title": "The Ranch at Reveille Peak Ranch",
+        "date": "May 28",
+        "description": "Rogue Trail Series, Burnet",
+        "url": "http://roguetrailseries.com "
+    },
+    {
+        "title": "Bruises & Bandages",
+        "date": "Jan. 14",
+        "description": "Women on the Trail Race series, Georgetown",
+        "url": "http://trailheadrunning.com"
+    },
+    {
+        "title": "Creepy Crawlies & Critters",
+        "date": "Feb. 11",
+        "description": "Women on the Trail Race series, Buda",
+        "url": "http://trailheadrunning.com"
+    }
+]
 }

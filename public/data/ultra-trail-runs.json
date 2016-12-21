@@ -2,19 +2,120 @@
 	"name":"Ultra trail runs",
 	"items":
 
-[{"title":"Bandera 100K, 50K and 25K","date":"Jan. 9","description":"Bandera","url":"http://www.tejastrails.com "},
-{"title":"Buena Suerte 30k and 50 Miler","date":"Jan. 17","description":"Big Bend Ranch State Park","url":"http://www.bigbend50.com "},
-{"title":"Rocky Raccoon 100 Miler","date":"Feb. 6","description":"Huntsville","url":"http://www.tejastrails.com "},
-{"title":"Rocky 50","date":"Feb. 13","description":"Huntsville","url":"http://www.tejastrails.com"},
-{"title":"Saddleblazer Marathon, Half Marathon and 10K","date":"Feb. 27","description":"Killeen","url":"http://spectrumtrailracing.com"},
-{"title":"Pandora's Box of Rox 52.4 miles, 26.2miles, 13.1 miles, 8 miles","date":"March 5","description":"Burnet","url":"http://www.tejastrails.com "},
-{"title":"Lost Pines Marathon and Half Marathon Trail Runs","date":"March 20","description":"Bastrop","url":"http://lostpinestrailruns.com"},
-{"title":"Hells Hills 50 Miler, 50K, 25K and 10K","date":"April 2","description":"Smithville","url":"http://www.tejastrails.com"},
-{"title":"Paleface Trail Run marathon, half and 5K","date":"May 7","description":"Spicewood","url":"http://www.tejastrails.com "},
-{"title":"Flat Rock Ranch Marathon and Half","date":"Sept. 24","description":"Comfort","url":"http://spectrumtrailracing.com"},
-{"title":"McKinney Roughs 10K, 25K and 50K","date":"Oct. 8","description":"Bastrop","url":"http://spectrumtrailracing.com"},
-{"title":"Cactus Rose 100 Mile, 50 Mile and 4x25 Relay","date":"Oct. 22-23","description":"Bandera","url":"http://www.tejastrails.com "},
-{"title":"Trans-Pecos Ultra","date":"Oct. 23-29","description":"Big Bend Ranch State Park","url":"http://trans-pecosultra.com/"},
-{"title":"Wild Hare 50 Mile, 50K, 25K and 10K","date":"Nov. 19","description":"Warda","url":"http://www.tejastrails.com "}]
-
+[
+    {
+        "title": "Bandera 100K, 50K and 25K",
+        "date": "Jan .7-8",
+        "description": "Bandera",
+        "url": "http://www.tejastrails.com "
+    },
+    {
+        "title": "Big Bend Ultra 10K, 30K and 50K",
+        "date": "Jan. 15",
+        "description": "Big Bend Ranch State Park",
+        "url": "http://www.bigbend50.com "
+    },
+    {
+        "title": "Goodwater Marathon and Double Marathon",
+        "date": "Jan. 21",
+        "description": "Lake Georgetown",
+        "url": "http://www.spectrumtrailracing.com"
+    },
+    {
+        "title": "Rocky Raccoon 100 Miler",
+        "date": "Feb. 4-5",
+        "description": "Huntsville",
+        "url": "http://www.tejastrails.com "
+    },
+    {
+        "title": "Rocky 50",
+        "date": "Feb. 11",
+        "description": "Huntsville",
+        "url": "http://www.tejastrails.com"
+    },
+    {
+        "title": "Saddleblazer 100K, Marathon, Half Marathon and 10K",
+        "date": "Feb. 25",
+        "description": "Killeen",
+        "url": "http://spectrumtrailracing.com"
+    },
+    {
+        "title": "Hells Hills 50 Miler, 50K, 25K and 10K",
+        "date": "April 1",
+        "description": "Smithville",
+        "url": "http://www.tejastrails.com"
+    },
+    {
+        "title": "Pandora Marathon, Double Marathon, Half Marathon and 8 Miler",
+        "date": "Apirl 29",
+        "description": "Burnet",
+        "url": "http://www.tejastrails.com "
+    },
+    {
+        "title": "The Festival Marathon, Half Marathon, 10K, 5K and Relays",
+        "date": "June 3",
+        "description": "Spicewood",
+        "url": "http://www.tejastrails.com"
+    },
+    {
+        "title": "Capt'n Karl's Pedernales Falls 60K, 30K, 10K",
+        "date": "June 24",
+        "description": "Johnson City",
+        "url": "http://www.tejastrails.com"
+    },
+    {
+        "title": "Capt'n Karl's Muleshoe Bend 60K, 30K, 10K",
+        "date": "July 15",
+        "description": "Spicewood",
+        "url": "http://www.tejastrails.com"
+    },
+    {
+        "title": "Capt'n Karl's Colorado Bend 60K, 30K and 10K",
+        "date": "Aug. 5",
+        "description": "Bend",
+        "url": "http://www.tejastrails.com"
+    },
+    {
+        "title": "Capt'n Karl's Reveille 60K, 30K and 10K",
+        "date": "Aug. 26",
+        "description": "Burnet",
+        "url": "http://www.tejastrails.com"
+    },
+    {
+        "title": "Paleface Trail Run marathon, half and 5K",
+        "date": "Sept. 9",
+        "description": "Spicewood",
+        "url": "http://www.tejastrails.com "
+    },
+    {
+        "title": "Rawhide 50-Mile, Marathon, Half Marathon and 10K",
+        "date": "Oct. 7",
+        "description": "Flat Rock Ranch, Comfort\n",
+        "url": "http://spectrumtrailracing.com"
+    },
+    {
+        "title": "Cactus Rose 100 Mile, 50 Mile and 4x25 Relay",
+        "date": "Oct. 22-23",
+        "description": "Bandera",
+        "url": "http://www.tejastrails.com "
+    },
+    {
+        "title": "Trans-Pecos Ultra",
+        "date": "Oct. 20-29",
+        "description": "Big Bend Ranch State Park",
+        "url": "http://trans-pecosultra.com/"
+    },
+    {
+        "title": "Wonderland Marathon, Half Marathon and 10K",
+        "date": "Nov. 4",
+        "description": "Muleshoe Bend ",
+        "url": "http://spectrumtrailracing.com"
+    },
+    {
+        "title": "The Circus 12-hour Solo or relay, 30K and 10K",
+        "date": "Dec. 9",
+        "description": "McKinney Roughs",
+        "url": "http://spectrumtrailracing.com"
+    }
+]
 }

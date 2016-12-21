@@ -2,13 +2,42 @@
 	"name":"Marathons",
 	"items":
 
-[{"title":"Chevron Houston Marathon","date":"Jan. 17","description":"Houston","url":"http://www.chevronhoustonmarathon.com "},
-{"title":"Austin Marathon ","date":"Feb. 14","description":"Austin","url":"http://www.youraustinmarathon.com "},
-{"title":"The Big D-Texas Marathon","date":"April 10","description":"Dallas","url":"http://www.texasmarathon.com "},
-{"title":"Hill Country Trivium","date":"TBD October ","description":"Marble Falls","url":"http://www.traverserunning.com"},
-{"title":"San Antonio Rock 'n Roll Marathon","date":"Dec. 4","description":"San Antonio","url":"http://www.runrocknroll.com"},
-{"title":"HITS Multi-Sport Austin Marathon","date":"Dec. 11","description":"Austin","url":"http://www.hitsrunning.com"},
-{"title":"Metro PCS Dallas White Rock Marathon","date":"Dec. 11","description":"Dallas","url":"http://www.dallasmarathon.com "},
-{"title":"South Padre Marathon","date":"Nov. 12","description":"South Padre Island","url":"http://www.runspi.com"}]
-
+[
+    {
+        "title": "Chevron Houston Marathon",
+        "date": "Jan. 15",
+        "description": "Houston",
+        "url": "http://www.chevronhoustonmarathon.com "
+    },
+    {
+        "title": "Austin Marathon and Half Marathon",
+        "date": "Feb. 19",
+        "description": "Austin",
+        "url": "http://www.youraustinmarathon.com "
+    },
+    {
+        "title": "The Big D-Texas Marathon",
+        "date": "April 2",
+        "description": "Dallas",
+        "url": "http://www.texasmarathon.com "
+    },
+    {
+        "title": "South Padre Marathon",
+        "date": "Nov. 11",
+        "description": "South Padre Island",
+        "url": "http://www.runspi.com"
+    },
+    {
+        "title": "Hill Country Trivium",
+        "date": "TBD November",
+        "description": "Marble Falls",
+        "url": "http://www.tejastrails.com"
+    },
+    {
+        "title": "San Antonio Rock 'n Roll Marathon",
+        "date": "Dec. 3",
+        "description": "San Antonio",
+        "url": "http://www.runrocknroll.com"
+    }
+]
 }

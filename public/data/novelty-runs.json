@@ -2,8 +2,19 @@
 	"name":"Novelty runs",
 	"items":
 
-[{"title":"Color Vibe 5K","date":"2015 TBD","description":"Austin","url":"http://www.thecolorvibe.com"},
-{"title":"Bubble Run 5K","date":"May 21","description":"Austin","url":"http://www.bubblerun.com"},
-{"title":"Blacklight Run","date":"Nov. 19","description":"Austin","url":"http://www.blacklightrun.com"}]
+[
+    {
+        "title": "Color Vibe 5K",
+        "date": "Date not set\n",
+        "description": "Austin",
+        "url": "http://www.thecolorvibe.com"
+    },
+    {
+        "title": "Bubble Run 5K",
+        "date": "Oct. 7",
+        "description": "Austin",
+        "url": "http://www.bubblerun.com"
+    }
+]
 
 }
