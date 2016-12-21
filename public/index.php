@@ -105,9 +105,8 @@
     </div>
 
     <?php /* Banner ad */ ?>
-    <!-- php include "includes/banner-ad.inc";? -->
-    <?php include "includes/legal.inc";?>
     <?php include "includes/banner-ad.inc";?>
+    <?php include "includes/legal.inc";?>
     <?php include "includes/project-metrics.inc"; ?>
     <?php include "includes/metrics.inc"; ?>
 
