@@ -20,7 +20,7 @@ The data for the races are in a Google Spreadsheet that Pam Leblanc updates (whe
 ## Updating the data
 
 The race pages are fueled by JSON files that are created manually from Google Spreadsheets (Choose your race data 2017) in the Statcomdata account. Here are two ways to convert the spreadsheet:
-- You can add [this google apps script](src/js/google_export_json.js) in the Google Spreadsheet under Tools > Script Editor. Once done, you can refresh the spreadsheet and you'll get an "Export JSON" menu. Found this on an [old blog post](http://blog.pamelafox.org/2013/06/exporting-google-spreadsheet-as-json.html).
+- You can add [this google apps script](src/google_export_json.js) in the Google Spreadsheet under Tools > Script Editor. Once done, you can refresh the spreadsheet and you'll get an "Export JSON" menu. Found this on an [old blog post](http://blog.pamelafox.org/2013/06/exporting-google-spreadsheet-as-json.html).
 - Use [Mr. Data converter](http://shancarter.github.io/mr-data-converter/). Copy paste the spreadsheet in and use the "JSON - Properties" format.
 
 No matter how you get it, you have to put it into the corresponding file in `public/data/`. The resulting array needs to be inside of the key:
