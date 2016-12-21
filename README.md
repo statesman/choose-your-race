@@ -2,26 +2,46 @@
 
 This is a modified version of the Mother Jones CYOA template for the online version of [Choose your Race Adventure](http://projects.statesman.com/features/choose-your-race/), a yearly production for Fit City.
 
-The pathways are fueled by a Google Spreadsheet called "Choose your race paths 2016" saved in the interactives@statesman.com Drive account.
+The pathways are fueled by a Google Spreadsheet called "Choose your race paths 2017" saved in the interactives@statesman.com Drive account. I've made new versions each year, even though the publish page itself is recycled.
 
-The race pages are fueled by JSON files that are created manually from Google Spreadsheets (Choose your race data 2016) in the Statcomdata account using [Mr. Data converter](http://shancarter.github.io/mr-data-converter/). These are saved in `public/data`
+The data for the races are in a Google Spreadsheet that Pam Leblanc updates (when we give it to her.)
 
-Hopes are to clean this up and make it our own for future CYOA projects.
+## Updating for each year
+
+* Create a new branch for the updates, then merged to master when done. We only need to keep current versions/dates.
+* Update the title and intro with the correct year. File is `/public/index.php`
+* Update `races.php` with correct year.
+* Might update the lead cover photo with most current Cap10k race.
+* Adjust pathways in the paths spreadsheet as necessary, including photos to support.
+* Update the `pages/photo-credits.php` with new credits, if necessary.
+* Update `_race-nav.php` with new race categories, if necessary. That is an include used in both `photo-credits-php` and `races.php`.
+* Update the race content, as noted below
+
+## Updating the data
+
+The race pages are fueled by JSON files that are created manually from Google Spreadsheets (Choose your race data 2017) in the Statcomdata account. Here are two ways to convert the spreadsheet:
+- You can add [this google apps script](src/js/google_export_json.js) in the Google Spreadsheet under Tools > Script Editor. Once done, you can refresh the spreadsheet and you'll get an "Export JSON" menu. Found this on an [old blog post](http://blog.pamelafox.org/2013/06/exporting-google-spreadsheet-as-json.html).
+- Use [Mr. Data converter](http://shancarter.github.io/mr-data-converter/). Copy paste the spreadsheet in and use the "JSON - Properties" format.
+
+No matter how you get it, you have to put it into the corresponding file in `public/data/`. The resulting array needs to be inside of the key:
+
+```
+{
+    "name":"Fun runs",
+    "items":
+
+    [all the stuff here]
+
+}
+```
+
+TO-DO: We could probably turn this into a grunt task that looped through a list of sheets and spit them out, like [teacher-impropriety](https://github.com/statesman/2016-11-30-teacher-impropriety).
 
 ## Photo sizes
+If you swap out photos, the size are:
 
-* Bigger game photos are 930 x 400
+* Bigger game photos are 930 x 400. (This are in the data spreadsheet)
 * List photos are 733 x 191
-
-## Updating for 2016
-
-I created a new branch for the updates, then merged to master when done. We only need to keep current versions/dates. I adjusted the project structure to use a `public` folder, `grunt-ftpush` and `grunt-slack-hook`. Among the other changes we are likely to make if used in future years:
-
-* I updated the title and intro with the correct year. File is `/public/index.php`
-* Created a new cover photo from most recent Cap10k race and put in the paths spreadsheet.
-* Adjusted the pathways in the paths spreadsheet to include short races that had dropped in 2015, including photos to support.
-* I updated the `pages/photo-credits.php` with new credits.
-* I updated `_race-nav.php` with new races. That is an include used in both `photo-credits-php` and `races.php`.
 
 -----------
 
