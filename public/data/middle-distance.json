@@ -2,10 +2,24 @@
 	"name":"Middle-distance races",
 	"items":
 
-[{"title":"Rogue Distance Festival 30K and 10K","date":"Jan. 10","description":"Cedar Park","url":"http://www.roguedistancefestival.com "},
-{"title":"3M Half Marathon","date":"Jan. 24","description":"Austin","url":"http://www.3mhalfmarathon.com "},
-{"title":"Austin Half Marathon","date":"Feb. 14","description":"Austin","url":"http://www.youraustinmarathon.com "},
-{"title":"Saint Pat's Half Marathon","date":"March 20","description":"Pflugerville","url":"http://www.saintpatshalf.com "},
-{"title":"Austin 10/20","date":"April 3","description":"Austin","url":"http://www.austin1020.com"}]
-
+[
+    {
+        "title": "3M Half Marathon",
+        "date": "Jan. 22",
+        "description": "Austin",
+        "url": "http://www.3mhalfmarathon.com "
+    },
+    {
+        "title": "Austin Half Marathon",
+        "date": "Feb. 19",
+        "description": "Austin",
+        "url": "http://www.youraustinmarathon.com "
+    },
+    {
+        "title": "Austin 10/20",
+        "date": "April 9",
+        "description": "Austin",
+        "url": "http://www.austin1020.com\n"
+    }
+]
 }

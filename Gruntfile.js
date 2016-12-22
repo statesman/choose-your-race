@@ -1,7 +1,23 @@
 var fs = require("fs");
+var request = require("request");
 
 module.exports = function(grunt) {
   'use strict';
+
+// Publishing path info
+  var config = {
+    // the site section to publish to
+    site_dir: "features",
+
+    // the endpoint to publish to
+    site_path: "choose-your-race",
+
+    // name of your notifier slack bot
+    slack_username: "Runnin Man",
+
+    // slack emoji (don't forget the colons)
+    slack_icon_emoji: ":runner:"
+  };
 
   // Project configuration.
   grunt.initConfig({
@@ -9,7 +25,7 @@ module.exports = function(grunt) {
     // Copy FontAwesome files to the fonts/ directory
     copy: {
       fonts: {
-        src: 'bower_components/font-awesome/fonts/**',
+        src: 'node_modules/font-awesome/fonts/**',
         dest: 'public/fonts/',
         flatten: true,
         expand: true
@@ -26,7 +42,7 @@ module.exports = function(grunt) {
     less: {
       options: {
         sourceMap: true,
-        paths: ['bower_components/bootstrap/less']
+        paths: ['node_modules/bootstrap/less']
       },
       prod: {
         options: {
@@ -54,7 +70,10 @@ module.exports = function(grunt) {
       homepage: {
         files: {
           'public/dist/scripts.js': [
-            //'bower_components/jquery/dist/jquery.js',
+            'node_modules/bootstrap/js/button.js',
+            'node_modules/bootstrap/js/collapse.js',
+            'node_modules/bootstrap/js/dropdown.js',
+            'node_modules/bootstrap/js/transition.js',
             'src/js/main.js'
           ]
         }
@@ -76,7 +95,7 @@ module.exports = function(grunt) {
         tasks: ['clean:css', 'less']
       }
     },
-        // stage path needs to be set
+
     ftpush: {
       stage: {
         auth: {
@@ -85,12 +104,11 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/stage_aas/projects/features/choose-your-race/',
-        exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
+        dest: ['/stage_aas/projects', config.site_dir, config.site_path].join("/"),
+        exclusions: ['dist/tmp', 'Thumbs.db', '.DS_Store'],
         simple: false,
         useList: false
       },
-      // prod path will need to change
       prod: {
         auth: {
           host: 'cmgdtcpxahost.cmg.int',
@@ -98,30 +116,54 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/prod_aas/projects/features/choose-your-race/',
-        exclusions: ['dist/tmp','Thumbs.db','.DS_Store'],
+        dest: ['/prod_aas/projects', config.site_dir, config.site_path].join("/"),
+        exclusions: ['dist/tmp', 'Thumbs.db', '.DS_Store'],
         simple: false,
         useList: false
       }
-    },
-
-    // be sure to set publishing paths
-    slack: {
-        options: {
-          endpoint: fs.readFileSync('.slack', {encoding: 'utf8'}),
-          channel: '#bakery',
-          username: 'gruntbot',
-          icon_url: 'http://vermilion1.github.io/presentations/grunt/images/grunt-logo.png'
-        },
-        stage: {
-          text: 'Project published to stage: http://stage.host.coxmediagroup.com/aas/projects/features/choose-your-race/ {{message}}'
-        },
-        prod: {
-          text: 'Project published to prod: http://projects.statesman.com/features/choose-your-race/ {{message}}'
-        }
     }
 
+  });
 
+  // register a custom task to hit slack
+  grunt.registerTask('slack', function(where_dis_go) {
+
+    // first, check to see if there's a .slack file
+    // (this file has the webhook endpoint)
+    if (grunt.file.isFile('.slack')) {
+
+      // homeboy here runs async, so
+      var done = this.async();
+
+      // prod or stage?
+      var ftp_path = where_dis_go === "prod" ? ["http://projects.statesman.com", config.site_dir, config.site_path].join("/") : ["http://stage.host.coxmediagroup.com/aas/projects", config.site_dir, config.site_path].join("/");
+
+      var payload = {
+        "text": "hello yes i am pushing code to *" + config.site_path + "*: " + ftp_path,
+        "channel": "#bakery",
+        "username": config.slack_username,
+        "icon_emoji": config.slack_icon_emoji
+      };
+
+      // send the request
+      request.post({
+          url: fs.readFileSync('.slack', {
+            encoding: 'utf8'
+          }),
+          json: payload
+        },
+        function callback(err, res, body) {
+          done();
+          if (body !== "ok") {
+            return console.error('upload failed:', body);
+          }
+          console.log('We slacked this up just fine people, good work');
+        });
+    }
+    // if no .slack file, log it
+    else {
+      grunt.log.warn('No .slack file exists. Skipping Slack notification.');
+    }
   });
 
   // Load the task plugins
@@ -132,7 +174,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-ftpush');
-  grunt.loadNpmTasks('grunt-slack-hook');
 
 
   grunt.registerTask('default', ['copy','jshint', 'clean', 'less', 'uglify']);
