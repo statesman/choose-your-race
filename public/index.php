@@ -8,7 +8,7 @@
       $meta = array(
         'title' => 'Choose your running event game',
         'description' => 'Use this choose your own adventure game to find the Central Texas running event that fits your interests.',
-        'thumbnail' => 'http://projects.statesman.com/features/choose-your-race/assets/choose-your-race/choose-your-race-share-360.png',
+        'thumbnail' => 'http://projects.statesman.com/features/choose-your-race/assets/choose-your-race-share.png',
         'url' => 'http://projects.statesman.com/features/choose-your-race/'
       );
     ?>
