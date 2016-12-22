@@ -4,7 +4,7 @@ This is a modified version of the Mother Jones CYOA template for the online vers
 
 The pathways are fueled by a Google Spreadsheet called "Choose your race paths 2017" saved in the interactives@statesman.com Drive account. I've made new versions each year, even though the publish page itself is recycled.
 
-The data for the races are in a Google Spreadsheet that Pam Leblanc updates (when we give it to her.)
+The data for the races are in a Google Spreadsheet that Pam Leblanc updates (when we give it to her.) I copy the previous year and she works from that.
 
 ## Updating for each year
 
