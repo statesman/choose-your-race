@@ -50,7 +50,7 @@
     <script type="text/javascript">
         jQuery(document).ready(function() {
                 // this pulls from the spreadsheet key
-            var cyoa = jQuery.Cyoa('1vir54v6_rYs-ly-mlEpX4ia6dm55mWovnf_yDU1KaNA',
+            var cyoa = jQuery.Cyoa('11T6Jy5KHb4NSspL-HP275B8fmEdDTIzXFoKybsALmsM',
                  { separator : ',',
                 control_location: 'bottom'
                 } 

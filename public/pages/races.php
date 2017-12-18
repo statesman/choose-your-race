@@ -6,7 +6,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <?php
       $meta = array(
-        'title' => 'Central Texas running events, 2017',
+        'title' => 'Central Texas running events, 2018',
         'description' => 'Find the best running event for your tastes and style.',
         'thumbnail' => 'http://projects.statesman.com/features/choose-your-race/assets/choose-your-race-share.png',
         'url' => 'http://projects.statesman.com/features/choose-your-race/'
