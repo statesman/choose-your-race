@@ -2,9 +2,20 @@
 
 This is a modified version of the Mother Jones CYOA template for the online version of [Choose your Race Adventure](http://projects.statesman.com/features/choose-your-race/), a yearly production for Fit City.
 
-The pathways are fueled by a Google Spreadsheet called "Choose your race paths 2017" saved in the interactives@statesman.com Drive account. I've made new versions each year, even though the publish page itself is recycled.
+The pathways are fueled by a Google Spreadsheet called [Choose your race paths 2018](https://docs.google.com/spreadsheets/d/11T6Jy5KHb4NSspL-HP275B8fmEdDTIzXFoKybsALmsM/edit) saved in the interactives@statesman.com Drive account. I've made new versions each year, even though the publish page itself is recycled.
 
 The data for the races are in a Google Spreadsheet that Pam Leblanc updates (when we give it to her.) I copy the previous year and she works from that.
+
+## jshint
+
+I removed jshint from the default grunt task because it was throwing a warning:
+
+``` bash
+Running "jshint:js" (jshint) task
+Warning: The "path" argument must be of type string Use --force to continue.
+```
+
+There were not any file to lint anyway.
 
 ## Updating for each year
 
@@ -19,7 +30,9 @@ The data for the races are in a Google Spreadsheet that Pam Leblanc updates (whe
 
 ## Updating the data
 
-The race pages are fueled by JSON files that are created manually from Google Spreadsheets (Choose your race data 2017) in the Statcomdata account. Here are two ways to convert the spreadsheet:
+Pam updates 
+
+The race pages are fueled by JSON files that are created manually from Google Spreadsheets [Choose your race data 2018](https://docs.google.com/spreadsheets/d/1O67PIXl9NHB7H1D60UDpttLJ8CgYKn0l0bHBmluXxAQ/edit#gid=1022043936) in the Statcomdata account. Here are two ways to convert the spreadsheet:
 - You can add [this google apps script](src/google_export_json.js) in the Google Spreadsheet under Tools > Script Editor. Once done, you can refresh the spreadsheet and you'll get an "Export JSON" menu. Found this on an [old blog post](http://blog.pamelafox.org/2013/06/exporting-google-spreadsheet-as-json.html).
 - Use [Mr. Data converter](http://shancarter.github.io/mr-data-converter/). Copy paste the spreadsheet in and use the "JSON - Properties" format.
 
