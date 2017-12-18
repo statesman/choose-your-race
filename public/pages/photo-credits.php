@@ -42,6 +42,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <!-- cyoa specific stuff -->
+    <!-- so our mobie nav will work -->
+    <script src="../cyoa/js/jquery.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+        });
+    </script>
 
 
     <?php /* CMG advertising and analytics */ ?>
