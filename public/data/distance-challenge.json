@@ -5,34 +5,33 @@
 [
     {
         "title": "3M Half Marathon",
-        "date": "Jan. 22",
+        "date": "Jan. 21",
         "description": "Austin",
         "url": "http://www.3mhalfmarathon.com"
     },
     {
         "title": "Austin Marathon & Half Marathon",
-        "date": "Feb. 19",
+        "date": "Feb. 18",
         "description": "Austin",
         "url": "http://www.youraustinmarathon.com "
     },
     {
-        "title": "Back to the '80s 8K",
-        "date": "Oct. 8",
+        "title": "Run Free Texas 8K",
+        "date": "Sept. 30",
         "description": "Austin",
         "url": "http://www.rft80s8k.com"
     },
     {
         "title": "Run for the Water 10-Miler and 5K",
-        "date": "Nov. 5",
+        "date": "Nov. 4",
         "description": "Austin",
         "url": "https://runforthewater.com/"
     },
     {
         "title": "ARC Decker Challenge Half Marathon",
-        "date": "Dec. 10",
+        "date": "Dec. 9",
         "description": "Austin",
         "url": "http://austinrunners.org"
     }
 ]
-
 }

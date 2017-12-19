@@ -10,68 +10,110 @@
         "url": "http://noexcusesrunning.com"
     },
     {
+        "title": "For the Love of It",
+        "date": "Feb. 10",
+        "description": "Buda",
+        "url": "https://tinyurl.com/ydyzovtj"
+    },
+    {
         "title": "Paramount Break-a-Leg 5K ",
-        "date": "Feb. 19",
+        "date": "Feb. 18",
         "description": "Austin",
-        "url": "http://austintheatre.org"
+        "url": "http://www.austintheatre.org\n"
+    },
+    {
+        "title": "Run for the Bluebonnets 5K/1K",
+        "date": "Feb. 18",
+        "description": "Bastrop ",
+        "url": "https://tinyurl.com/yaqvhm5o"
+    },
+    {
+        "title": "Get Your Rear in Gear",
+        "date": "Feb. 24",
+        "description": "Austin",
+        "url": "https://tinyurl.com/ycssvb7z"
+    },
+    {
+        "title": "Hops & Grain Brewing 5K Beer Run",
+        "date": "Feb. 24",
+        "description": "Austin",
+        "url": "https://www.eventsprout.com/event/hopgrain"
     },
     {
         "title": "Negley 5K, 3K, 1K",
-        "date": "March 4",
+        "date": "March 3",
         "description": "Kyle",
-        "url": "http://tinyurl.com/jlv8cp7"
+        "url": "https://tinyurl.com/y98g2rtc"
     },
     {
         "title": "Head for the Cure 5K",
-        "date": "March 19",
+        "date": "March 25",
         "description": "Austin",
         "url": "http://headforthecure.org"
     },
     {
         "title": "St. James Missions 5K",
-        "date": "March 25",
+        "date": "March 31",
         "description": "Austin",
         "url": "http://stjamescmbc.org/special-events/5k-run/"
     },
     {
-        "title": "ADAPT Fun Run for Disability Rights",
-        "date": "April 1",
+        "title": "Adelbert's Brewery 5K Beer Run",
+        "date": "April 7",
         "description": "Austin",
-        "url": "http://adaptfunrun.net"
-    },
-    {
-        "title": "Longhorn Run 5K and 10K",
-        "date": "April 8",
-        "description": "Austin",
-        "url": "http://utlonghornrun.com"
+        "url": "https://www.eventsprout.com/event/adelberts"
     },
     {
         "title": "Statesman Capitol 10,000",
-        "date": "April 23",
+        "date": "April 8",
         "description": "Austin",
         "url": "http://cap10k.com"
     },
     {
-        "title": "Travis Country 5K",
-        "date": "May 7",
+        "title": "Longhorn Run 5K and 10K",
+        "date": "April 14",
         "description": "Austin",
-        "url": "http://traviscountry5k.com"
+        "url": "http://utlonghornrun.com"
+    },
+    {
+        "title": "Meridian Hive Meadery Beer Run",
+        "date": "April 21",
+        "description": "Austin",
+        "url": "https://www.eventsprout.com/event/meridian"
+    },
+    {
+        "title": "Silicon Labs Sunshine Run 5K/10K",
+        "date": "May 6",
+        "description": "Austin",
+        "url": "http://austinsunshinerun.com/"
+    },
+    {
+        "title": "Friends & Allies Brewery Beer Run",
+        "date": "May 19",
+        "description": "Austin",
+        "url": "https://www.eventsprout.com/event/friendsallies"
     },
     {
         "title": "Front Porch Days 10K, 5K, 3K, 1K",
-        "date": "May 20",
+        "date": "May 19",
         "description": "Kyle",
         "url": "http://tinyurl.com/og3jzpt"
     },
     {
         "title": "Daisy 5K ",
-        "date": "Date not set",
+        "date": "May 19",
         "description": "Austin",
         "url": "http://austinrunners.org"
     },
     {
+        "title": "Maudie's Moonlight Margarita 5K",
+        "date": "June 7",
+        "description": "Austin",
+        "url": "https://thetrailfoundation.org"
+    },
+    {
         "title": "Schlotzsky's Bun Run 5K",
-        "date": "Date not set",
+        "date": "Sept. 30",
         "description": "Austin",
         "url": "http://bunrun.com"
     },
@@ -89,21 +131,27 @@
     },
     {
         "title": "Komen Race for the Cure",
-        "date": "Sept. 25",
+        "date": "Sept. 30",
         "description": "Austin",
         "url": "http://komenaustin.org/komen-race-for-the-cure "
     },
     {
         "title": "Hootenanny on the Hill 5K/10K",
-        "date": "Oct. 14",
+        "date": "TBD October",
         "description": "Kyle",
         "url": "http://hootenannyonthehill.com"
     },
     {
         "title": "Run by the Creek 5K and 10K",
-        "date": "Nov. 12",
+        "date": "Nov. 11",
         "description": "Dripping Springs",
         "url": "http://runbythecreek.com "
+    },
+    {
+        "title": "Thundercloud Subs Turkey Trot 5 miler",
+        "date": "Nov. 22",
+        "description": "Austin",
+        "url": "http://thundercloud.com"
     },
     {
         "title": "Trail of Lights 5K",
@@ -118,5 +166,4 @@
         "url": "http://austinjinglebell.com "
     }
 ]
-
 }

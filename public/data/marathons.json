@@ -5,31 +5,25 @@
 [
     {
         "title": "Chevron Houston Marathon",
-        "date": "Jan. 15",
+        "date": "Jan. 14",
         "description": "Houston",
         "url": "http://www.chevronhoustonmarathon.com "
     },
     {
         "title": "Austin Marathon and Half Marathon",
-        "date": "Feb. 19",
+        "date": "Feb. 18",
         "description": "Austin",
         "url": "http://www.youraustinmarathon.com "
     },
     {
-        "title": "The Big D-Texas Marathon",
-        "date": "April 2",
-        "description": "Dallas",
-        "url": "http://www.texasmarathon.com "
-    },
-    {
         "title": "South Padre Marathon",
-        "date": "Nov. 11",
+        "date": "TBD November",
         "description": "South Padre Island",
         "url": "http://www.runspi.com"
     },
     {
         "title": "Hill Country Trivium",
-        "date": "TBD November",
+        "date": "Nov. 11",
         "description": "Marble Falls",
         "url": "http://www.tejastrails.com"
     },
@@ -38,6 +32,12 @@
         "date": "Dec. 3",
         "description": "San Antonio",
         "url": "http://www.runrocknroll.com"
+    },
+    {
+        "title": "BMW Dallas Marathon",
+        "date": "Dec. 9",
+        "description": "Dallas ",
+        "url": "https://www.bmwdallasmarathon.com/"
     }
 ]
 }

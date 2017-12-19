@@ -4,44 +4,50 @@
 
 [
     {
-        "title": "Austin Gorilla Run 5K",
-        "date": "Jan. 28",
-        "description": "Austin",
-        "url": "http://austingorillarun.com "
-    },
-    {
         "title": "Cupid's Undie Run",
-        "date": "Feb. 11",
+        "date": "Feb. 10",
         "description": "Austin",
         "url": "http://cupidsundierun.com "
     },
     {
         "title": "Cupid's Chase 5K",
-        "date": "Feb. 4",
+        "date": "Feb. 3",
         "description": "Georgetown",
         "url": "http://cupid.georgetown.org/"
     },
     {
         "title": "Statesman Capitol 10,000",
-        "date": "April 23",
+        "date": "April 4",
         "description": "Austin",
         "url": "http://www.cap10k.com "
     },
     {
         "title": "Keep Austin Weird 5K",
-        "date": "June 24",
+        "date": "June 23",
         "description": "Austin",
         "url": "http://keepaustinweirdfest.com"
     },
     {
         "title": "CASA Superhero Run",
-        "date": "Sept. 17",
+        "date": "Sept. 16",
         "description": "Austin",
         "url": "http://www.casasuperherorun.com  "
     },
     {
-        "title": "Thundercloud Subs Turkey Trot",
-        "date": "Nov. 23",
+        "title": "Run Free Texas '80s 8K",
+        "date": "Sept. 30",
+        "description": "Austin",
+        "url": "https://www.rft80s8k.com/"
+    },
+    {
+        "title": "Haunted Half ",
+        "date": "TBD October",
+        "description": "Austin",
+        "url": "http://thehauntedhalf.com/austin/"
+    },
+    {
+        "title": "Thundercloud Subs Turkey Trot 5 miler",
+        "date": "Nov. 22",
         "description": "Austin",
         "url": "http://thundercloud.com "
     }
