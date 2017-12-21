@@ -1,35 +1,34 @@
 {
 	"name":"Trail runs",
 	"items":
-
 [
     {
         "title": "The Maze at Walnut Creek",
-        "date": "March 26",
+        "date": "March 25",
         "description": "Rogue Trail Series, Austin",
         "url": "http://roguetrailseries.com "
     },
     {
         "title": "The Tangle at Flat Creek Ranch",
-        "date": "April 30",
+        "date": "April 29",
         "description": "Rogue Trail Series, Johnson City",
         "url": "http://roguetrailseries.com "
     },
     {
         "title": "The Ranch at Reveille Peak Ranch",
-        "date": "May 28",
+        "date": "June 3",
         "description": "Rogue Trail Series, Burnet",
         "url": "http://roguetrailseries.com "
     },
     {
         "title": "Bruises & Bandages",
-        "date": "Jan. 14",
+        "date": "Jan 20",
         "description": "Women on the Trail Race series, Georgetown",
         "url": "http://trailheadrunning.com"
     },
     {
         "title": "Creepy Crawlies & Critters",
-        "date": "Feb. 11",
+        "date": "Feb. 10",
         "description": "Women on the Trail Race series, Buda",
         "url": "http://trailheadrunning.com"
     }

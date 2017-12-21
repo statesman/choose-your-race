@@ -50,7 +50,7 @@
     <script type="text/javascript">
         jQuery(document).ready(function() {
                 // this pulls from the spreadsheet key
-            var cyoa = jQuery.Cyoa('1vir54v6_rYs-ly-mlEpX4ia6dm55mWovnf_yDU1KaNA',
+            var cyoa = jQuery.Cyoa('11T6Jy5KHb4NSspL-HP275B8fmEdDTIzXFoKybsALmsM',
                  { separator : ',',
                 control_location: 'bottom'
                 } 
@@ -96,7 +96,7 @@
       <h4>FIT CITY</h4>
       <h2>'Choose your own race' adventure game</h2>
       <p><small>Interactive by Pam LeBlanc and Christian McDonald, Austin American-Statesman. <a href="pages/photo-credits.php">Photo credits</a></small></p>
-      <p>You've resolved to get fit and run more in 2017. Maybe that goal includes entering a race. But which one? The Central Texas running calendar is packed with possibilities. Answer these questions to pick one that’s right for you, <span style="font-weight:bold"><a href="pages/races.php?list=fun-runs">or go straight to the answer page to see all of them</a></span>.</p>
+      <p>You've resolved to get fit and run more in 2018. Maybe that goal includes entering a race. But which one? The Central Texas running calendar is packed with possibilities. Answer these questions to pick one that’s right for you, <span style="font-weight:bold"><a href="pages/races.php?list=fun-runs">or go straight to the answer page to see all of them</a></span>.</p>
 
       <div class="cyoa_wrapper">
           <div style="clear:both" id="cyoa_container"></div>

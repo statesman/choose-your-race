@@ -5,21 +5,21 @@
 [
     {
         "title": "3M Half Marathon",
-        "date": "Jan. 22",
+        "date": "Jan. 21",
         "description": "Austin",
         "url": "http://www.3mhalfmarathon.com "
     },
     {
         "title": "Austin Half Marathon",
-        "date": "Feb. 19",
+        "date": "Feb. 18",
         "description": "Austin",
         "url": "http://www.youraustinmarathon.com "
     },
     {
-        "title": "Austin 10/20",
-        "date": "April 9",
+        "title": "ARC Decker Challenge Half Marathon",
+        "date": "Dec. 9",
         "description": "Austin",
-        "url": "http://www.austin1020.com\n"
+        "url": "http://austinrunners.org"
     }
 ]
 }

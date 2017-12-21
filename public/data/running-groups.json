@@ -5,7 +5,7 @@
 [
     {
         "title": "Austin Fit",
-        "url": "http://www.austinfit.com\n"
+        "url": "http://www.austinfit.com"
     },
     {
         "title": "Austin Runners Club",
@@ -16,23 +16,18 @@
         "url": "http://gilbertsgazelles.com"
     },
     {
-        "title": "Luke’s Locker",
-        "description": "115 Sandra Muraida Way, (512) 482-8676",
-        "url": "http://lukeslocker.com"
-    },
-    {
         "title": "Ready to Run",
         "description": "3616 Far West Boulevard, (512) 241-0323",
         "url": "http://readytoruntexas.com"
     },
     {
         "title": "Rogue Running",
-        "description": "410 Pressler St., Austin, 512-373-8704; 930 S. Bell, Suite 104, Cedar Park, 512-373-8704",
+        "description": "410 Pressler Street, Austin, 512-373-8704",
         "url": "http://www.roguerunning.com/"
     },
     {
         "title": "Texas Running Company",
-        "description": "9901 N. Capital of Texas Highway, 512-795-2022\n",
+        "description": "9901 N. Capital of Texas Highway, Suite 160, 512-795-2022",
         "url": "http://tinyurl.com/nnyo3uc"
     }
 ]

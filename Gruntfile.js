@@ -70,6 +70,7 @@ module.exports = function(grunt) {
       homepage: {
         files: {
           'public/dist/scripts.js': [
+            'node_modules/jquery/dist/jquery.js',
             'node_modules/bootstrap/js/button.js',
             'node_modules/bootstrap/js/collapse.js',
             'node_modules/bootstrap/js/dropdown.js',
@@ -176,7 +177,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-ftpush');
 
 
-  grunt.registerTask('default', ['copy','jshint', 'clean', 'less', 'uglify']);
+  grunt.registerTask('default', ['copy', 'clean', 'less', 'uglify']);
   grunt.registerTask('stage', ['default','ftpush:stage','slack:stage']);
   grunt.registerTask('prod', ['default','ftpush:prod','slack:prod']);
 

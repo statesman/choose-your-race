@@ -6,7 +6,7 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <?php
       $meta = array(
-        'title' => 'Central Texas running events, 2017',
+        'title' => 'Central Texas running events, 2018',
         'description' => 'Find the best running event for your tastes and style.',
         'thumbnail' => 'http://projects.statesman.com/features/choose-your-race/assets/choose-your-race-share.png',
         'url' => 'http://projects.statesman.com/features/choose-your-race/'
@@ -42,6 +42,14 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+
+    <!-- cyoa specific stuff -->
+    <!-- so our mobie nav will work -->
+    <script src="../cyoa/js/jquery.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function() {
+        });
+    </script>
 
 
     <?php /* CMG advertising and analytics */ ?>

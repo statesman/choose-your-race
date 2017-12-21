@@ -4,17 +4,28 @@
 
 [
     {
+        "title": "Foam Glow",
+        "date": "April 21",
+        "description": "Austin",
+        "url": "http://www.foamglow.com/austintx/"
+    },
+    {
         "title": "Color Vibe 5K",
-        "date": "Date not set\n",
+        "date": "Date not set",
         "description": "Austin",
         "url": "http://www.thecolorvibe.com"
     },
     {
         "title": "Bubble Run 5K",
-        "date": "Oct. 7",
+        "date": "Date not set",
         "description": "Austin",
         "url": "http://www.bubblerun.com"
+    },
+    {
+        "title": "Color Run Austin",
+        "date": "Date not set",
+        "description": "Austin",
+        "url": "https://thecolorrun.com/locations/austin/"
     }
 ]
-
 }
