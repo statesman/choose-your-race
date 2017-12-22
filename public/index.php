@@ -9,6 +9,7 @@
         'title' => 'Choose your running event game',
         'description' => 'Use this choose your own adventure game to find the Central Texas running event that fits your interests.',
         'thumbnail' => 'http://projects.statesman.com/features/choose-your-race/assets/choose-your-race-share.png',
+        'twitter' => 'aasinteractive',
         'url' => 'http://projects.statesman.com/features/choose-your-race/'
       );
     ?>
@@ -80,7 +81,7 @@
         <img width="147" height="30" role="presentation" src="assets/austin360.png" />
         </a>
     </div>
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <div class="collap`se navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="./">Start <span class="sr-only">(current)</span></a></li>
         <li class="visible-xs small-social"><a target="_blank" title="Share on Facebook" href="https://www.facebook.com/sharer.php?u=<?php echo urlencode($meta['url']); ?>"><i class="fa fa-facebook-square"></i></a><a target="_blank" title="Share on Twitter" href="https://twitter.com/intent/tweet?url=<?php echo urlencode($meta['url']); ?>&via=<?php print urlencode($meta['twitter']); ?>&text=<?php print urlencode($meta['title']); ?>"><i class="fa fa-twitter"></i></a></li>
