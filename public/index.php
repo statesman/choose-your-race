@@ -14,7 +14,7 @@
     ?>
 
     <title><?php print $meta['title']; ?> | Austin American-Statesman</title>
-    <link rel="icon" type="image/png" href="//projects.statesman.com/common/favicon.ico">
+    <link rel="icon" type="image/png" href="assets/favicon.ico">
 
     <link rel="canonical" href="<?php print $meta['url']; ?>" />
 
@@ -60,8 +60,9 @@
 
 
     <?php /* CMG advertising and analytics */ ?>
-    <?php include "includes/advertising.inc";?>
-    <?php include "includes/metrics-head.inc";?>
+    <?php include "includes/advertising.inc"; ?>
+    <?php include "includes/cmg-head-metadata.inc"; ?>
+    <?php include "includes/cmg-head-metrics.inc"; ?>
   </head>
   <body>
 
@@ -103,11 +104,9 @@
       </div>
     </div>
 
-    <?php /* Banner ad */ ?>
     <?php include "includes/banner-ad.inc";?>
     <?php include "includes/legal.inc";?>
-    <?php include "includes/project-metrics.inc"; ?>
-    <?php include "includes/metrics.inc"; ?>
+    <?php include "includes/cmg-body-scripts.inc"; ?>
 
     <script src="dist/scripts.js"></script>
   </body>
