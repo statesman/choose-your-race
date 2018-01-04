@@ -1,7 +1,6 @@
 {
 	"name":"Running groups",
 	"items":
-
 [
     {
         "title": "Austin Fit",
@@ -28,7 +27,7 @@
     {
         "title": "Texas Running Company",
         "description": "9901 N. Capital of Texas Highway, Suite 160, 512-795-2022",
-        "url": "http://tinyurl.com/nnyo3uc"
+        "url": "https://www.jackrabbit.com/info/locations?s=1&per_page=10&offset=0&unit=M&address=Texas+Running+company%2C+austin&radius=50#wrapper-map-canvas"
     }
 ]
 }
