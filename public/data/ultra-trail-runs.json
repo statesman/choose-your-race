@@ -1,7 +1,6 @@
 {
 	"name":"Ultra trail runs",
 	"items":
-
 [
     {
         "title": "Bandera 100K, 50K and 25K",
@@ -65,7 +64,7 @@
     },
     {
         "title": "Capt'n Karl's Pedernales Falls 60K, 30K, 10K",
-        "date": "June 25",
+        "date": "June 23",
         "description": "Johnson City",
         "url": "http://www.tejastrails.com"
     },
@@ -106,10 +105,16 @@
         "url": "https://www.livestrong5k10k.org/"
     },
     {
-        "title": "Rawhide 50-Mile, Marathon, Half Marathon and 10K",
+        "title": "The Game 5K and last man standing",
         "date": "Oct. 6",
-        "description": "Flat Rock Ranch, Comfort",
+        "description": "McKinney Falls",
         "url": "http://spectrumtrailracing.com"
+    },
+    {
+        "title": "Ragnar Trail Hill Country",
+        "date": "Oct. 19-20",
+        "description": "Flat Rock Ranch",
+        "url": "https://www.runragnar.com"
     },
     {
         "title": "Cactus Rose 100 Mile, 50 Mile and 4x25 Relay",

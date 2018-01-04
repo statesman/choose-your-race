@@ -8,7 +8,8 @@
       $meta = array(
         'title' => 'Central Texas running events, 2018',
         'description' => 'Find the best running event for your tastes and style.',
-        'thumbnail' => 'http://projects.statesman.com/features/choose-your-race/assets/choose-your-race-share.png',
+        'thumbnail' => 'http://projects.statesman.com/features/choose-your-race/assets/choose-your-race-share.jpg',
+        'twitter' => 'aasinteractive',
         'url' => 'http://projects.statesman.com/features/choose-your-race/'
       );
     ?>
@@ -53,8 +54,9 @@
 
 
     <?php /* CMG advertising and analytics */ ?>
-    <?php include "../includes/advertising.inc";?>
-    <?php include "../includes/metrics-head.inc";?>
+    <?php include "../includes/advertising.inc"; ?>
+    <?php include "../includes/cmg-head-metadata.inc"; ?>
+    <?php include "../includes/cmg-head-metrics.inc"; ?>
   </head>
   <body>
 
@@ -121,8 +123,7 @@
     <?php /* Banner ad */ ?>
     <?php include "../includes/banner-ad.inc";?>
     <?php include "../includes/legal.inc";?>
-    <?php include "../includes/project-metrics.inc"; ?>
-    <?php include "../includes/metrics.inc"; ?>
+    <?php include "../includes/cmg-body-scripts.inc"; ?>
 
     <script src="../dist/scripts.js"></script>
   </body>
